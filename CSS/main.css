@@ -31,7 +31,6 @@ p {
   color: #000000;
   font-size: 4em;
   text-shadow: 0 -3px 0 #333, 0 6px 8px rgba(0, 0, 0, 0.4), 0 9px 10px rgba(0, 0, 0, 0.15), 0 30px 10px rgba(0, 0, 0, 0.18), 0 15px 10px rgba(0, 0, 0, 0.21);
-  margin-top: -25%;
 }
 
 .part1 .navbar {
@@ -40,15 +39,28 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: absolute;
-  top: 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: red;
+}
+
+.part1 .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.part1 .navbar ul li {
+  margin-right: 10px;
 }
 
 .part2 {
