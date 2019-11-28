@@ -49,6 +49,11 @@ p {
   background-color: red;
 }
 
+.part1 .navbar img {
+  width: 100px;
+  height: 50px;
+}
+
 .part1 .navbar ul {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -52,6 +52,11 @@ p {
         justify-content: center;
         background-color: red;
 
+        img {
+            width: 100px;
+            height: 50px;
+        }
+
         ul{
             display: flex;
             flex-direction: row;
