@@ -23,10 +23,38 @@ p {
     font-family: $main-fonts;
 }
 
+
 //Le design générales des objets de l'ecran 1 ; ex: flexbox
 .part1 {
     height: 100vh;
-    background-color: grey;
+    background-color: color(one);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: no-repeat center url("/img/backgroundPage1.jpg");
+    background-size: cover;
+
+    h1 {
+        color: color(one);
+        font-size: 4em;
+        text-shadow: 0 -3px 0 #333,
+            0 6px 8px rgba(0, 0, 0, .4),
+            0 9px 10px rgba(0, 0, 0, .15),
+            0 30px 10px rgba(0, 0, 0, .18),
+            0 15px 10px rgba(0, 0, 0, .21);
+        margin-top: -25%;
+    }
+
+    .navbar {
+        height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+        background-color: red;
+    }
 }
 
 //Le design générales des objets de l'ecran 2 ; ex: flexbox
