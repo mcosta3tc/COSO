@@ -61,7 +61,7 @@ p {
 .part1 .navbar img {
   width: 126px;
   height: 37px;
-  margin-left: 17px;
+  margin-left: 22px;
 }
 
 .part1 .navbar ul {
@@ -72,10 +72,11 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  list-style: none;
 }
 
 .part1 .navbar ul li {
-  margin-right: 10px;
+  margin-right: 22px;
 }
 
 .part2 {

@@ -60,15 +60,16 @@ p {
         img {
             width: 126px;
             height: 37px;
-            margin-left: 17px;
+            margin-left: 22px;
         }
 
         ul {
             display: flex;
             flex-direction: row;
+            list-style: none;
 
             li {
-                margin-right: 10px;
+                margin-right: 22px;
             }
         }
     }
