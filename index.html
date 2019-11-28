@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>COSO</title>
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="CSS/main.css">
+
+    <!-- FullPageJs CSS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.css"
+        integrity="sha256-3IkGqGYOvq1Ype2MXFwVJFeBtBACgiveho3SacOEEP8=" crossorigin="anonymous" />
+
+    <!-- icons library // https://fontawesome.com/icons?from=io -->
+    <script src="https://use.fontawesome.com/c94170f1ce.js"></script>
+</head>
+
+<body>
+
+    <!-- div parente pour toute la page pour que la librairie la reconnaisse ; ne pas changer sa classe -->
+    <div id="fullPage">
+
+
+        <!-- div d'appel des écrans pour la librairie ; ne pas changer sa classe -->
+        <div class="section">
+
+            <!-- div parentes des éléments appelable dans css ; notre zone de travail-->
+            <div class="part1">
+                <!-- exemple pour une encre à voir avec les butons ; pour l'appliquer à un autre élément changer son id ex: #part2 -->
+                <!-- <h1>1<a href="#part4">click</a></h1> -->
+                <h1>1</h1>
+            </div>
+
+        </div>
+
+
+        <!-- Ecran 2 -->
+        <div class="section">
+
+            <!-- div parentes des éléments appelable dans css ; notre zone de travail-->
+            <div class="part2">
+                <h1>2</h1>
+            </div>
+
+        </div>
+
+
+        <!-- Ecran 3 -->
+        <div class="section">
+
+            <!-- div parentes des éléments appelable dans css ; notre zone de travail-->
+            <div class="part3">
+                <h1>3</h1>
+            </div>
+
+        </div>
+
+
+        <!-- Ecran 4 -->
+        <div class="section">
+
+            <!-- div parentes des éléments appelable dans css ; notre zone de travail-->
+            <div class="part4">
+                <h1>4</h1>
+            </div>
+
+        </div>
+
+        <!-- Ecran 5 -->
+        <div class="section">
+
+            <!-- div parentes des éléments appelable dans css ; notre zone de travail-->
+            <div class="part5">
+                <h1>5</h1>
+            </div>
+
+        </div>
+
+        <!-- la partie pour le slide horizontal -->
+        <div class="section">
+
+            <!-- div parentes des éléments appelable dans css ; notre zone de travail-->
+            <div class="part6">
+
+                <div class="slide">
+
+                    <div class="part6_1">
+                        <h1>5</h1>
+                    </div>
+                </div>
+
+                <div class="slide">
+
+                    <div class="part6_2">
+                        <h1>5</h1>
+                    </div>
+
+                </div>
+
+                <div class="slide">
+
+                    <div class="part6_3">
+                        <h1>5</h1>
+                    </div>
+
+                </div>
+
+                <div class="slide">
+
+                    <div class="part6_4">
+                        <h1>5</h1>
+                    </div>
+
+                </div>
+
+                <div class="slide">
+
+                    <div class="part6_5">
+                        <h1>5</h1>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- Liant avec la librairie -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.js"
+        integrity="sha256-e13jRNqOX98m6UAwI/yZTpcDseJtA8s86yfFs4Sqrv8=" crossorigin="anonymous"></script>
+
+    <!-- CDN pour FullPageJS / Documentation complete https://github.com/alvarotrigo/fullPage.js/#fullpagejs -->
+    <script>
+        new fullpage('#fullPage', {
+            //pour donner l'effet de bloc par bloc au scroll
+            autoScrolling: true,
+            //afficher les boules de naviagtion sur le cote
+            navigation: true,
+            //pour animer les ancres 
+            anchors: ['part1', 'part2', 'part3', 'part4', 'part5'],
+            //afficher le texte sur les boules en hover et pour ajouter des pages appelablent par les boules
+            navigationTooltips: ['Description Produit', 'Top 10', 'Open Source ?', 'Ses avantages',
+                'Et moi alors !',
+                'Il faut bien un début à tout'
+            ],
+            //afficher la boule active
+            showActiveTooltip: true,
+            //modifier la vitesse de scroll des parties    
+            scrollingSpeed: 700,
+            //cacher les grosses fleches sur les cotes pour la partie slide
+            controlArrows: true,
+            //afficher des boules pour la partie scroll horizontale comme la partie verticale
+            slidesNavigation: true
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+$main-fonts: 'Zilla Slab',
+serif; //font-family: $main-fonts;
+$colors: (one: #000000, two: #FFFFFF, three: #FFF44F);
+
+//La fonction pour appeler la varaiable des couleurs
+@function color($color-name) {
+    @return map-get($colors, $color-name)
+}
+
+;
+
+//Le design générales pour tout les objets de la page
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+//Le design générales pour tout les texte et titres
+h1,
+p {
+    font-family: $main-fonts;
+}
+
+//Le design générales des objets de l'ecran 1 ; ex: flexbox
+.part1 {
+    height: 100vh;
+    background-color: grey;
+}
+
+//Le design générales des objets de l'ecran 2 ; ex: flexbox
+.part2 {
+    height: 100vh;
+    background-color: red;
+}
+
+//Le design générales des objets de l'ecran 3 ; ex: flexbox
+.part3 {
+    height: 100vh;
+    background-color: pink;
+}
+
+//Le design générales des objets de l'ecran 4 ; ex: flexbox
+.part4 {
+    height: 100vh;
+    background-color: color(two);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+//Le design générales des objets de l'ecran 5 ; ex: flexbox
+.part5 {
+    height: 100vh;
+    background-color: blue;
+}
+
+//Le design générales des objets de l'ecran 6 ; ex: flexbox
+.part6 {
+    height: 100vh;
+    background-color: red;
+}
