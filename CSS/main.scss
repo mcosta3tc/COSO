@@ -23,8 +23,12 @@ p {
     font-family: $main-fonts;
 }
 
-#fp-nav {
-    background-color: blue!important;
+span {
+   background-color: color(two)!important;
+}
+
+.fp-tooltip {
+    background-color: blue;
 }
 
 //Le design générales des objets de l'ecran 1 ; ex: flexbox
@@ -35,11 +39,11 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: no-repeat center url("/img/backgroundPage1.jpg");
+    background: no-repeat center url("/img/backgroundPage1.2.jpg");
     background-size: cover;
 
     h1 {
-        color: color(one);
+        color: color(two);
         font-size: 4em;
         text-shadow: 0 -3px 0 #333,
             0 6px 8px rgba(0, 0, 0, .4),

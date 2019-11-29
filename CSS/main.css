@@ -11,8 +11,12 @@ p {
   font-family: "Zilla Slab", serif;
 }
 
-#fp-nav {
-  background-color: blue !important;
+span {
+  background-color: #FFFFFF !important;
+}
+
+.fp-tooltip {
+  background-color: blue;
 }
 
 .part1 {
@@ -31,12 +35,12 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: no-repeat center url("/img/backgroundPage1.jpg");
+  background: no-repeat center url("/img/backgroundPage1.2.jpg");
   background-size: cover;
 }
 
 .part1 h1 {
-  color: #000000;
+  color: #FFFFFF;
   font-size: 4em;
   text-shadow: 0 -3px 0 #333, 0 6px 8px rgba(0, 0, 0, 0.4), 0 9px 10px rgba(0, 0, 0, 0.15), 0 30px 10px rgba(0, 0, 0, 0.18), 0 15px 10px rgba(0, 0, 0, 0.21);
   margin-top: -25%;
