@@ -99,7 +99,7 @@
         <div class="section">
 
             <!-- div parentes des éléments appelable dans css ; notre zone de travail-->
-            <div class="part6">
+            <div class="part6" id="part6">
 
                 <div class="slide">
 
@@ -172,8 +172,17 @@
             //cacher les grosses fleches sur les cotes pour la partie slide
             controlArrows: true,
             //afficher des boules pour la partie scroll horizontale comme la partie verticale
-            slidesNavigation: true
+            slidesNavigation: true,
+            onLeave:function(origin,dest,dir){
+            if (dest.index === 5) {
+                document.querySelector("#fp-nav").style.display="none"
+            } else {
+                document.querySelector("#fp-nav").style.display=""
+            }
+            }
         })
+
+    
     </script>
 </body>
 

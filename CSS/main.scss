@@ -23,6 +23,9 @@ p {
     font-family: $main-fonts;
 }
 
+#fp-nav {
+    background-color: blue!important;
+}
 
 //Le design générales des objets de l'ecran 1 ; ex: flexbox
 .part1 {
@@ -70,6 +73,7 @@ p {
 
             li {
                 margin-right: 22px;
+                display: none;
             }
         }
     }

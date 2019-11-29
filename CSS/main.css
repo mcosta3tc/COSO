@@ -11,6 +11,10 @@ p {
   font-family: "Zilla Slab", serif;
 }
 
+#fp-nav {
+  background-color: blue !important;
+}
+
 .part1 {
   height: 100vh;
   background-color: #000000;
@@ -77,6 +81,7 @@ p {
 
 .part1 .navbar ul li {
   margin-right: 22px;
+  display: none;
 }
 
 .part2 {
