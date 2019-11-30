@@ -1,6 +1,6 @@
 $main-fonts: 'Zilla Slab',
 serif; //font-family: $main-fonts;
-$colors: (one: #000000, two: #FFFFFF, three: #FFF44F);
+$colors: (one: #000000, two: #FFFFFF, three: #FFF44F, four: #00FFFF, five: #FF4F5E, six: #54FFBD, seven: #6E008B, eight:#00458B);
 
 //La fonction pour appeler la varaiable des couleurs
 @function color($color-name) {
@@ -17,62 +17,89 @@ $colors: (one: #000000, two: #FFFFFF, three: #FFF44F);
     text-align: center;
 }
 
-//Le design générales pour tout les texte et titres
+//Le design générales pour tous les textes et titres
 h1,
-p {
+h2 p {
     font-family: $main-fonts;
 }
 
+//le design des boules de la navigation
+span {
+    background-color: color(two) !important;
+}
 
-//Le design générales des objets de l'ecran 1 ; ex: flexbox
-.part1 {
+//le design du texte des boules de la navigation
+#fp-nav ul li .fp-tooltip {
+    font-family: $main-fonts !important;
+    font-size: 20px !important;
+    top: -6px !important;
+    font-weight: lighter;
+}
+
+//Le design générales des objets de l'ecran 1
+#part1 {
     height: 100vh;
     background-color: color(one);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: no-repeat center url("/img/backgroundPage1.jpg");
+    background: no-repeat bottom url("/img/backgroundPage1.1.jpg");
     background-size: cover;
 
-    h1 {
-        color: color(one);
-        font-size: 4em;
-        text-shadow: 0 -3px 0 #333,
-            0 6px 8px rgba(0, 0, 0, .4),
-            0 9px 10px rgba(0, 0, 0, .15),
-            0 30px 10px rgba(0, 0, 0, .18),
-            0 15px 10px rgba(0, 0, 0, .21);
-            margin-top: -25%;
-    }
-
-    .navbar {
-        height: 80px;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-
+    //Le logo
+    h2 {
+        color: color(two);
+        font-family: $main-fonts;
         position: absolute;
         top: 0;
+        left: 0;
+        margin: 15px 0 0 30px;
+        font-weight: bold;
+    }
 
-        img {
-            width: 126px;
-            height: 37px;
-            margin-left: 17px;
+    //le titre du site 
+    #titreP1 {
+        position: relative;
+        top: -25%;
+        border-bottom: 3px solid color(three);
+
+        h1 {
+            color: color(one);
+            font-size: 8em;
+            text-shadow: -1px 0 color(two), 0 1px color(two), 1px 0 color(two), 0 -1px color(two);
+            font-weight: bold;
         }
 
-        ul {
-            display: flex;
-            flex-direction: row;
+        p {
+            font-family: $main-fonts;
+            color: color(two);
+            font-size: 2em;
+            font-weight: bold;
+        }
+    }
 
-            li {
-                margin-right: 10px;
+    //le texte animé
+    #textanimP1 {
+        h2 {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 2em;
+            color: color(two);
+            margin: 0 !important;
+            font-weight: lighter;
+
+            span {
+                background-color: color(one) !important;
             }
         }
     }
 }
+
+
 
 //Le design générales des objets de l'ecran 2 ; ex: flexbox
 .part2 {

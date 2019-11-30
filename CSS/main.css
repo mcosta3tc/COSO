@@ -7,11 +7,22 @@
 }
 
 h1,
-p {
+h2 p {
   font-family: "Zilla Slab", serif;
 }
 
-.part1 {
+span {
+  background-color: #FFFFFF !important;
+}
+
+#fp-nav ul li .fp-tooltip {
+  font-family: "Zilla Slab", serif !important;
+  font-size: 20px !important;
+  top: -6px !important;
+  font-weight: lighter;
+}
+
+#part1 {
   height: 100vh;
   background-color: #000000;
   display: -webkit-box;
@@ -27,55 +38,54 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: no-repeat center url("/img/backgroundPage1.jpg");
+  background: no-repeat bottom url("/img/backgroundPage1.1.jpg");
   background-size: cover;
 }
 
-.part1 h1 {
-  color: #000000;
-  font-size: 4em;
-  text-shadow: 0 -3px 0 #333, 0 6px 8px rgba(0, 0, 0, 0.4), 0 9px 10px rgba(0, 0, 0, 0.15), 0 30px 10px rgba(0, 0, 0, 0.18), 0 15px 10px rgba(0, 0, 0, 0.21);
-  margin-top: -25%;
-}
-
-.part1 .navbar {
-  height: 80px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+#part1 h2 {
+  color: #FFFFFF;
+  font-family: "Zilla Slab", serif;
   position: absolute;
   top: 0;
+  left: 0;
+  margin: 15px 0 0 30px;
+  font-weight: bold;
 }
 
-.part1 .navbar img {
-  width: 126px;
-  height: 37px;
-  margin-left: 17px;
+#part1 #titreP1 {
+  position: relative;
+  top: -25%;
+  border-bottom: 3px solid #FFF44F;
 }
 
-.part1 .navbar ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+#part1 #titreP1 h1 {
+  color: #000000;
+  font-size: 8em;
+  text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF;
+  font-weight: bold;
 }
 
-.part1 .navbar ul li {
-  margin-right: 10px;
+#part1 #titreP1 p {
+  font-family: "Zilla Slab", serif;
+  color: #FFFFFF;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#part1 #textanimP1 h2 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  color: #FFFFFF;
+  margin: 0 !important;
+  font-weight: lighter;
+}
+
+#part1 #textanimP1 h2 span {
+  background-color: #000000 !important;
 }
 
 .part2 {
