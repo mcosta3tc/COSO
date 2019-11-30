@@ -27,8 +27,10 @@ span {
    background-color: color(two)!important;
 }
 
-.fp-tooltip {
-    background-color: blue;
+#fp-nav ul li .fp-tooltip {
+    font-family: $main-fonts!important;
+    font-size: 20px!important;
+    top: -6px!important;
 }
 
 //Le design générales des objets de l'ecran 1 ; ex: flexbox
@@ -39,7 +41,7 @@ span {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: no-repeat center url("/img/backgroundPage1.2.jpg");
+    background: no-repeat bottom url("/img/backgroundPage1.jpg");
     background-size: cover;
 
     h1 {
