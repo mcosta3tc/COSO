@@ -1,6 +1,7 @@
 $main-fonts: 'Zilla Slab',
 serif; //font-family: $main-fonts;
 $colors: (one: #000000, two: #FFFFFF, three: #FFF44F, four: #00FFFF, five: #FF4F5E, six: #54FFBD, seven: #6E008B, eight:#00458B);
+$height: 100vh;
 
 //La fonction pour appeler la varaiable des couleurs
 @function color($color-name) {
@@ -38,7 +39,7 @@ span {
 
 //Le design générales des objets de l'ecran 1
 #part1 {
-    height: 100vh;
+    height: $height;
     background-color: color(one);
     display: flex;
     justify-content: center;
@@ -124,8 +125,17 @@ span {
 
 //Le design générales des objets de l'ecran 5 ; ex: flexbox
 .part5 {
-    height: 100vh;
-    background-color: blue;
+    height: $height;
+    background-color: color(two);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    
+    h1 {
+        margin-left: 60px;
+        font-size: 3em;
+    }
 }
 
 //Le design générales des objets de l'ecran 6 ; ex: flexbox
