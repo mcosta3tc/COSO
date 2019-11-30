@@ -26,18 +26,27 @@
         <div class="section">
 
             <!-- div parentes des éléments appelable dans css ; notre zone de travail-->
-            <div class="part1">
-                <!-- exemple pour une encre à voir avec les butons ; pour l'appliquer à un autre élément changer son id ex: #part2 -->
-                <!-- <h1>1<a href="#part4">click</a></h1> -->
-                <h2>moz://a</h2>
+            <div id="part1">
 
-                <div id="textP1">
+                <!-- Logo -->
+                <div>
+                    <h2>moz://a</h2>
+                </div>
+
+                <!-- Titre et description -->
+                <div id="titreP1">
                     <h1>
                         COSO
                     </h1>
-
-                    <!-- <p>Découvrez les projets Github du moment<br> et <br>pourquoi pas renforcer vos connaissances! </p> -->
+                    <p>Découvrez le Code Source Ouvert !</p>
                 </div>
+
+                <!-- texte animé -->
+                <div id="textanimP1">
+                    <h2>Hello: <span id="typed5"></span></h2>
+                </div>
+
+
             </div>
 
         </div>
@@ -137,11 +146,15 @@
     </div>
 
 
-    <!-- Liant avec la librairie -->
+    <!-- CDN de la librairie fullPageJS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.js"
         integrity="sha256-e13jRNqOX98m6UAwI/yZTpcDseJtA8s86yfFs4Sqrv8=" crossorigin="anonymous"></script>
 
-    <!-- CDN pour FullPageJS / Documentation complete https://github.com/alvarotrigo/fullPage.js/#fullpagejs -->
+    <!-- CDN de la librairie typedJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
+        integrity="sha256-+izcH23qgte+aiGZRxk63BxGUyoQrAQZVoH2zKU9usM=" crossorigin="anonymous"></script>
+
+    <!--  Documentation complete https://github.com/alvarotrigo/fullPage.js/#fullpagejs -->
     <script>
         new fullpage('#fullPage', {
             //pour donner l'effet de bloc par bloc au scroll
@@ -171,6 +184,18 @@
                 }
             }
         })
+
+// Documentation complete: https://github.com/mattboldt/typed.js/
+        var typed5 = new Typed('#typed5', {
+            strings: ['Sam ! ^100', 'Lola ! ^100', 'Tom ! ^100', 'Sarah ! ^100', 'Dan ! ^100', 'à toi ! ^100'],
+            startDelay: 50,
+            typeSpeed: 60,
+            backSpeed: 40,
+            cursorChar: '_',
+            shuffle: false,
+            smartBackspace: true,
+            loop: true
+        });
     </script>
 </body>
 
