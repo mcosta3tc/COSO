@@ -15,7 +15,6 @@ $height: 100vh;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-align: center;
 }
 
 //Le design générales pour tous les textes et titres
@@ -68,7 +67,7 @@ span {
         margin-bottom: 40px;
         border-bottom: 3px solid color(three);
         width: 348px;
-
+        text-align: center;
         h1 {
             color: color(one);
             font-size: 8em;
