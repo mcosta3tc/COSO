@@ -47,6 +47,7 @@ span {
     background-size: cover;
 
     #logoP1 {
+
         //Le logo
         h2 {
             color: color(two);
@@ -68,6 +69,7 @@ span {
         border-bottom: 3px solid color(three);
         width: 348px;
         text-align: center;
+
         h1 {
             color: color(one);
             font-size: 8em;
@@ -94,7 +96,7 @@ span {
 
             span {
                 background-color: color(one) !important;
-                font-weight: lighter!important;
+                font-weight: lighter !important;
             }
         }
     }
@@ -138,7 +140,40 @@ span {
 }
 
 //Le design générales des objets de l'ecran 6 ; ex: flexbox
-.part6 {
+#part6_1 {
+    background-color: color(two);
     height: 100vh;
-    background-color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: $main-fonts;
+
+    .descriptionP6 {
+        margin-left: 60px;
+        h1 {
+            font-size: 4em;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+    }
+
+    .imagecontainerP6 {
+        position: relative;
+        right: -20%;
+        background: no-repeat left url(../img/VSC.jpg);
+        background-size: cover;
+        width: 1600px;
+        height: 80%;
+        border-radius: 6px;
+
+        span {
+            background: #00458B;
+            border-radius: 100%;
+            height: 50px;
+            width: 50px
+        }
+    }
 }
