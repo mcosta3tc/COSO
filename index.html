@@ -29,25 +29,15 @@
             <div class="part1">
                 <!-- exemple pour une encre à voir avec les butons ; pour l'appliquer à un autre élément changer son id ex: #part2 -->
                 <!-- <h1>1<a href="#part4">click</a></h1> -->
-                <div class="navbar">
+                <h2>moz://a</h2>
 
-                    <nav class="navbar">
-                        <!-- Logo -->
-                        <img src="img/mozillaLogo.jpg" alt="">
-                        <ul>
-                            <li><a href="#lien1">1</a></li>
-                            <li><a href="#lien2">2</a></li>
-                            <li><a href="#lien3">3</a></li>
-                        </ul>
-                    </nav>
+                <div id="textP1">
+                    <h1>
+                        COSO
+                    </h1>
 
+                    <!-- <p>Découvrez les projets Github du moment<br> et <br>pourquoi pas renforcer vos connaissances! </p> -->
                 </div>
-
-                <h1>
-                    COSO
-                </h1>
-
-                <p>Découvrez les projets Github du moment et pourquoi pas renforcer vos connaissances! </p>
             </div>
 
         </div>
@@ -168,21 +158,19 @@
             //afficher la boule active
             showActiveTooltip: true,
             //modifier la vitesse de scroll des parties    
-            scrollingSpeed: 700,
+            scrollingSpeed: 600,
             //cacher les grosses fleches sur les cotes pour la partie slide
             controlArrows: true,
             //afficher des boules pour la partie scroll horizontale comme la partie verticale
             slidesNavigation: true,
-            onLeave:function(origin,dest,dir){
-            if (dest.index === 5) {
-                document.querySelector("#fp-nav").style.display="none"
-            } else {
-                document.querySelector("#fp-nav").style.display=""
-            }
+            onLeave: function (origin, dest, dir) {
+                if (dest.index === 5) {
+                    document.querySelector("#fp-nav").style.display = "none"
+                } else {
+                    document.querySelector("#fp-nav").style.display = ""
+                }
             }
         })
-
-    
     </script>
 </body>
 
