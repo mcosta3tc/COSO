@@ -40,28 +40,34 @@ span {
 //Le design générales des objets de l'ecran 1
 .part1 {
     height: $height;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background: no-repeat bottom url("../img/backgroundPage1.1.jpg");
     background-size: cover;
 
-    //Le logo
-    h2 {
-        color: color(two);
-        font-family: $main-fonts;
-        position: absolute;
-        top: 0;
-        left: 0;
-        margin: 15px 0 0 30px;
-        font-weight: bold;
+    #logoP1 {
+        //Le logo
+        h2 {
+            color: color(two);
+            font-family: $main-fonts;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 15px 0 0 30px;
+            font-weight: bold;
+        }
     }
 
     //le titre du site 
     #titreP1 {
-        position: relative;
-        top: -25%;
+        display: flex;
+        flex-direction: column;
+        margin-top: -120px;
+        margin-bottom: 40px;
         border-bottom: 3px solid color(three);
+        width: 348px;
 
         h1 {
             color: color(one);
@@ -81,23 +87,19 @@ span {
     //le texte animé
     #textanimP1 {
         h2 {
-            position: absolute;
-            top: 50%;
-            left: 0;
-            width: 100%;
             text-align: center;
             font-size: 2em;
+            font-family: $main-fonts;
             color: color(two);
             margin: 0 !important;
-            font-weight: lighter;
 
             span {
                 background-color: color(one) !important;
+                font-weight: lighter!important;
             }
         }
     }
 }
-
 
 
 //Le design générales des objets de l'ecran 2 ; ex: flexbox
@@ -129,7 +131,7 @@ span {
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
-    
+
     h1 {
         margin-left: 60px;
         font-size: 3em;

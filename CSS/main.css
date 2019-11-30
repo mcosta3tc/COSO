@@ -24,7 +24,6 @@ span {
 
 .part1 {
   height: 100vh;
-  background-color: #000000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,7 +41,7 @@ span {
   background-size: cover;
 }
 
-.part1 h2 {
+.part1 #logoP1 h2 {
   color: #FFFFFF;
   font-family: "Zilla Slab", serif;
   position: absolute;
@@ -53,9 +52,17 @@ span {
 }
 
 .part1 #titreP1 {
-  position: relative;
-  top: -25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: -120px;
+  margin-bottom: 40px;
   border-bottom: 3px solid #FFF44F;
+  width: 348px;
 }
 
 .part1 #titreP1 h1 {
@@ -73,19 +80,16 @@ span {
 }
 
 .part1 #textanimP1 h2 {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
   text-align: center;
   font-size: 2em;
+  font-family: "Zilla Slab", serif;
   color: #FFFFFF;
   margin: 0 !important;
-  font-weight: lighter;
 }
 
 .part1 #textanimP1 h2 span {
   background-color: #000000 !important;
+  font-weight: lighter !important;
 }
 
 .part2 {
@@ -137,5 +141,10 @@ span {
 .part6 {
   height: 100vh;
   background-color: red;
+}
+
+.part6 #part6_1 {
+  height: 100vh;
+  background: #FFFFFF;
 }
 /*# sourceMappingURL=main.css.map */
