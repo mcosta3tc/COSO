@@ -1,6 +1,7 @@
 $main-fonts: 'Zilla Slab',
 serif; //font-family: $main-fonts;
 $colors: (one: #000000, two: #FFFFFF, three: #FFF44F, four: #00FFFF, five: #FF4F5E, six: #54FFBD, seven: #6E008B, eight:#00458B);
+$height: 100vh;
 
 //La fonction pour appeler la varaiable des couleurs
 @function color($color-name) {
@@ -38,8 +39,7 @@ span {
 
 //Le design générales des objets de l'ecran 1
 .part1 {
-    height: 100vh;
-    background-color: color(one);
+    height: $height;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,22 +47,27 @@ span {
     background: no-repeat bottom url("../img/backgroundPage1.1.jpg");
     background-size: cover;
 
-    //Le logo
-    h2 {
-        color: color(two);
-        font-family: $main-fonts;
-        position: absolute;
-        top: 0;
-        left: 0;
-        margin: 15px 0 0 30px;
-        font-weight: bold;
+    #logoP1 {
+        //Le logo
+        h2 {
+            color: color(two);
+            font-family: $main-fonts;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 15px 0 0 30px;
+            font-weight: bold;
+        }
     }
 
     //le titre du site 
     #titreP1 {
-        position: relative;
-        top: -25%;
+        display: flex;
+        flex-direction: column;
+        margin-top: -120px;
+        margin-bottom: 40px;
         border-bottom: 3px solid color(three);
+        width: 348px;
 
         h1 {
             color: color(one);
@@ -82,23 +87,19 @@ span {
     //le texte animé
     #textanimP1 {
         h2 {
-            position: absolute;
-            top: 50%;
-            left: 0;
-            width: 100%;
             text-align: center;
             font-size: 2em;
+            font-family: $main-fonts;
             color: color(two);
             margin: 0 !important;
-            font-weight: lighter;
 
             span {
                 background-color: color(one) !important;
+                font-weight: lighter!important;
             }
         }
     }
 }
-
 
 
 //Le design générales des objets de l'ecran 2 ; ex: flexbox
@@ -124,8 +125,17 @@ span {
 
 //Le design générales des objets de l'ecran 5 ; ex: flexbox
 .part5 {
-    height: 100vh;
-    background-color: blue;
+    height: $height;
+    background-color: color(two);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+
+    h1 {
+        margin-left: 60px;
+        font-size: 3em;
+    }
 }
 
 //Le design générales des objets de l'ecran 6 ; ex: flexbox
