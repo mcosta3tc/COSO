@@ -22,7 +22,7 @@ span {
   font-weight: lighter;
 }
 
-#part1 {
+.part1 {
   height: 100vh;
   background-color: #000000;
   display: -webkit-box;
@@ -42,7 +42,7 @@ span {
   background-size: cover;
 }
 
-#part1 h2 {
+.part1 h2 {
   color: #FFFFFF;
   font-family: "Zilla Slab", serif;
   position: absolute;
@@ -52,27 +52,27 @@ span {
   font-weight: bold;
 }
 
-#part1 #titreP1 {
+.part1 #titreP1 {
   position: relative;
   top: -25%;
   border-bottom: 3px solid #FFF44F;
 }
 
-#part1 #titreP1 h1 {
+.part1 #titreP1 h1 {
   color: #000000;
   font-size: 8em;
   text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF;
   font-weight: bold;
 }
 
-#part1 #titreP1 p {
+.part1 #titreP1 p {
   font-family: "Zilla Slab", serif;
   color: #FFFFFF;
   font-size: 2em;
   font-weight: bold;
 }
 
-#part1 #textanimP1 h2 {
+.part1 #textanimP1 h2 {
   position: absolute;
   top: 50%;
   left: 0;
@@ -84,7 +84,7 @@ span {
   font-weight: lighter;
 }
 
-#part1 #textanimP1 h2 span {
+.part1 #textanimP1 h2 span {
   background-color: #000000 !important;
 }
 
