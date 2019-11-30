@@ -7,13 +7,85 @@
 }
 
 h1,
-p {
+h2 p {
   font-family: "Zilla Slab", serif;
 }
 
-.part1 {
+span {
+  background-color: #FFFFFF !important;
+}
+
+#fp-nav ul li .fp-tooltip {
+  font-family: "Zilla Slab", serif !important;
+  font-size: 20px !important;
+  top: -6px !important;
+  font-weight: lighter;
+}
+
+#part1 {
   height: 100vh;
-  background-color: grey;
+  background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: no-repeat bottom url("/img/backgroundPage1.1.jpg");
+  background-size: cover;
+}
+
+#part1 h2 {
+  color: #FFFFFF;
+  font-family: "Zilla Slab", serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 15px 0 0 30px;
+  font-weight: bold;
+}
+
+#part1 #titreP1 {
+  position: relative;
+  top: -25%;
+  border-bottom: 3px solid #FFF44F;
+}
+
+#part1 #titreP1 h1 {
+  color: #000000;
+  font-size: 8em;
+  text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF;
+  font-weight: bold;
+}
+
+#part1 #titreP1 p {
+  font-family: "Zilla Slab", serif;
+  color: #FFFFFF;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#part1 #textanimP1 h2 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  color: #FFFFFF;
+  margin: 0 !important;
+  font-weight: lighter;
+}
+
+#part1 #textanimP1 h2 span {
+  background-color: #000000 !important;
 }
 
 .part2 {
