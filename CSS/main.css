@@ -142,7 +142,7 @@ span {
   background-color: black;
 }
 
-#part6_1 {
+.part6Elements {
   background-color: #FFFFFF;
   height: 100vh;
   display: -webkit-box;
@@ -158,27 +158,28 @@ span {
   font-family: "Zilla Slab", serif;
 }
 
-#part6_1 .descriptionP6 {
+.part6Elements .descriptionP6 {
   margin-left: 60px;
 }
 
-#part6_1 .descriptionP6 h1 {
+.part6Elements .descriptionP6 h1 {
   font-size: 2.5em;
 }
 
-#part6_1 .descriptionP6 h1 span {
+.part6Elements .descriptionP6 h1 span {
   text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
   color: #FFFFFF;
   font-weight: bolder;
+  text-transform: uppercase;
 }
 
-#part6_1 .descriptionP6 p {
+.part6Elements .descriptionP6 p {
   font-size: 1.2em;
   width: 275px;
 }
 
-#part6_1 .descriptionP6 .outlined {
-  margin-top: 60px;
+.part6Elements .descriptionP6 .outlined {
+  margin-top: 15px;
   padding: 10px 15px 10px 15px;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0);
@@ -187,28 +188,29 @@ span {
   font-weight: bold;
   letter-spacing: 1px;
   outline: none;
+  font-family: "Zilla Slab", serif;
 }
 
-#part6_1 .descriptionP6 .outlined:hover {
+.part6Elements .descriptionP6 .outlined:hover {
   background-color: rgba(66, 135, 245, 0.1);
 }
 
-#part6_1 .descriptionP6 .outlined:focus {
+.part6Elements .descriptionP6 .outlined:focus {
   background-color: rgba(66, 135, 245, 0.2);
 }
 
-#part6_1 .descriptionP6 .outlined:active {
+.part6Elements .descriptionP6 .outlined:active {
   background-color: rgba(66, 135, 245, 0.3);
 }
 
-.imagecontainerP6 {
+#imagecontainerP6_1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background: no-repeat left url(../img/VSC.jpg);
+  background: no-repeat left url(../img/imagesSlides/VSC.jpg);
   background-size: cover;
   width: 100%;
   height: 80%;
@@ -216,7 +218,7 @@ span {
   margin: 0 60px 0 100px;
 }
 
-.imagecontainerP6 span {
+#imagecontainerP6_1 span {
   position: relative;
   top: 15px;
   right: 15px;
@@ -235,12 +237,68 @@ span {
   width: 100px;
 }
 
-.imagecontainerP6 span img {
+#imagecontainerP6_1 span img {
   height: 65%;
   width: 65%;
 }
 
-#part6_2 {
-  background-color: yellow;
+#imagecontainerP6_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: no-repeat center url(../img/imagesSlides/HTMLcss.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+  margin: 0 60px 0 100px;
+}
+
+#imagecontainerP6_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: no-repeat center url(../img/imagesSlides/JS.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+  margin: 0 60px 0 100px;
+}
+
+#imagecontainerP6_4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: no-repeat center url(../img/imagesSlides/Progra.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+  margin: 0 60px 0 100px;
+}
+
+#imagecontainerP6_5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: no-repeat center url(../img/imagesSlides/github.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+  margin: 0 60px 0 100px;
 }
 /*# sourceMappingURL=main.css.map */
