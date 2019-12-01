@@ -145,14 +145,12 @@ span {
     background-color: black;
 }
 
-
 .part6Elements {
-    background-color: color(two);
+    background-color: color(one);
     height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
-
     font-family: $main-fonts;
 
     .descriptionP6 {
@@ -160,10 +158,13 @@ span {
 
         h1 {
             font-size: 2.5em;
+            color: color(two);
+            font-weight: bolder;
 
             span {
-                text-shadow: -1px 0 color(one), 0 1px color(one), 1px 0 color(one), 0 -1px color(one);
-                color: color(two);
+                text-shadow: -1px 0 color(two), 0 1px color(two), 1px 0 color(two), 0 -1px color(two) !important;
+                color: color(one) !important;
+                background-color: color(one) !important;
                 font-weight: bolder;
                 text-transform: uppercase;
             }
@@ -172,17 +173,17 @@ span {
         p {
             font-size: 1.2em;
             width: 275px;
+            color: color(two);
         }
 
         .outlined {
             margin-top: 15px;
             padding: 10px 15px 10px 15px;
             border-radius: 5px;
-            background-color: rgba(0, 0, 0, 0);
-            border: 2px solid color(one);
-            color: color(one);
+            background-color: color(one);
+            border: 2px solid color(three);
+            color: color(three);
             font-weight: bold;
-            letter-spacing: 1px;
             outline: none;
             font-family: $main-fonts;
         }
