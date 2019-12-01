@@ -138,6 +138,10 @@ span {
   font-size: 3em;
 }
 
+.fp-controlArrow {
+  background-color: black;
+}
+
 #part6_1 {
   background-color: #FFFFFF;
   height: 100vh;
@@ -173,7 +177,31 @@ span {
   width: 275px;
 }
 
-#part6_1 .imagecontainerP6 {
+#part6_1 .descriptionP6 .outlined {
+  margin-top: 60px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #000000;
+  color: #000000;
+  font-weight: bold;
+  letter-spacing: 1px;
+  outline: none;
+}
+
+#part6_1 .descriptionP6 .outlined:hover {
+  background-color: rgba(66, 135, 245, 0.1);
+}
+
+#part6_1 .descriptionP6 .outlined:focus {
+  background-color: rgba(66, 135, 245, 0.2);
+}
+
+#part6_1 .descriptionP6 .outlined:active {
+  background-color: rgba(66, 135, 245, 0.3);
+}
+
+.imagecontainerP6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -188,10 +216,10 @@ span {
   margin: 0 60px 0 100px;
 }
 
-#part6_1 .imagecontainerP6 span {
+.imagecontainerP6 span {
   position: relative;
-  top: -50px;
-  right: -50px;
+  top: 15px;
+  right: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -207,7 +235,7 @@ span {
   width: 100px;
 }
 
-#part6_1 .imagecontainerP6 span img {
+.imagecontainerP6 span img {
   height: 65%;
   width: 65%;
 }

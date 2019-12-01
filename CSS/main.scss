@@ -140,6 +140,12 @@ span {
 }
 
 //Le design générales des objets de l'ecran 6 ; ex: flexbox
+
+.fp-controlArrow {
+    background-color: black;
+}
+
+
 #part6_1 {
     background-color: color(two);
     height: 100vh;
@@ -166,37 +172,64 @@ span {
             font-size: 1.2em;
             width: 275px;
         }
+
+        .outlined {
+            margin-top: 60px;
+            padding: 10px 15px 10px 15px;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0);
+            border: 2px solid color(one);
+            color: color(one);
+            font-weight: bold;
+            letter-spacing: 1px;
+            outline: none;
+        }
+
+        .outlined:hover {
+            background-color: rgba(66, 135, 245, 0.1);
+        }
+
+        .outlined:focus {
+            background-color: rgba(66, 135, 245, 0.2);
+        }
+
+        .outlined:active {
+            background-color: rgba(66, 135, 245, 0.3);
+        }
     }
 
-    .imagecontainerP6 {
+
+}
+
+.imagecontainerP6 {
+    display: flex;
+    justify-content: flex-end;
+    background: no-repeat left url(../img/VSC.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    margin: 0 60px 0 100px;
+
+    span {
+        position: relative;
+        top: 15px;
+        right: 15px;
         display: flex;
-        justify-content: flex-end;
-        background: no-repeat left url(../img/VSC.jpg);
-        background-size: cover;
-        width: 100%;
-        height: 80%;
-        border-radius: 10px;
-        margin: 0 60px 0 100px;
+        justify-content: center;
+        align-items: center;
+        background: #00458B;
+        border-radius: 100%;
+        height: 100px;
+        width: 100px;
 
-        span {
-            position: relative;
-            top: -50px;
-            right: -50px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: #00458B;
-            border-radius: 100%;
-            height: 100px;
-            width: 100px;
-
-            img {
-                height: 65%;
-                width: 65%;
-            }
+        img {
+            height: 65%;
+            width: 65%;
         }
     }
 }
+
 
 
 #part6_2 {
