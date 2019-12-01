@@ -210,31 +210,12 @@ span {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background: no-repeat left url(../img/imagesSlides/VSC.jpg);
+  background: no-repeat left url(../img/imagesSlides/VS.jpg);
   background-size: cover;
   width: 100%;
   height: 80%;
   border-radius: 10px;
   margin: 0 60px 0 100px;
-}
-
-#imagecontainerP6_1 span {
-  position: relative;
-  top: 15px;
-  right: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: #00458B;
-  border-radius: 100%;
-  height: 100px;
-  width: 100px;
 }
 
 #imagecontainerP6_1 span img {
@@ -249,7 +230,7 @@ span {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background: no-repeat center url(../img/imagesSlides/HTMLcss.jpg);
+  background: no-repeat center url(../img/imagesSlides/HTMLCSS.jpg);
   background-size: cover;
   width: 100%;
   height: 80%;
@@ -294,7 +275,7 @@ span {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background: no-repeat center url(../img/imagesSlides/github.jpg);
+  background: no-repeat center url(../img/imagesSlides/git.jpg);
   background-size: cover;
   width: 100%;
   height: 80%;
