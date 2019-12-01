@@ -151,9 +151,6 @@ span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   font-family: "Zilla Slab", serif;
 }
 
@@ -177,13 +174,12 @@ span {
 }
 
 #part6_1 .imagecontainerP6 {
-  position: relative;
-  right: -20%;
   background: no-repeat left url(../img/VSC.jpg);
   background-size: cover;
-  width: 1600px;
+  width: 100%;
   height: 80%;
-  border-radius: 6px;
+  border-radius: 10px;
+  margin: 0 60px 0 100px;
 }
 
 #part6_1 .imagecontainerP6 span {
@@ -191,5 +187,9 @@ span {
   border-radius: 100%;
   height: 50px;
   width: 50px;
+}
+
+#part6_2 {
+  background-color: yellow;
 }
 /*# sourceMappingURL=main.css.map */
