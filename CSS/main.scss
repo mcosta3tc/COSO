@@ -152,11 +152,18 @@ span {
     .descriptionP6 {
         margin-left: 60px;
         h1 {
-            font-size: 4em;
+            font-size: 2.5em;
+
+            span {
+                text-shadow: -1px 0 color(one), 0 1px color(one), 1px 0 color(one), 0 -1px color(one);
+                color: color(two);
+                font-weight: bolder;
+            }
         }
 
         p {
             font-size: 1.2em;
+            width: 275px;
         }
     }
 
