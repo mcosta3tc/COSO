@@ -47,6 +47,7 @@ span {
     background-size: cover;
 
     #logoP1 {
+
         //Le logo
         h2 {
             color: color(two);
@@ -68,6 +69,7 @@ span {
         border-bottom: 3px solid color(three);
         width: 348px;
         text-align: center;
+
         h1 {
             color: color(one);
             font-size: 8em;
@@ -94,7 +96,7 @@ span {
 
             span {
                 background-color: color(one) !important;
-                font-weight: lighter!important;
+                font-weight: lighter !important;
             }
         }
     }
@@ -125,20 +127,160 @@ span {
 //Le design générales des objets de l'ecran 5 ; ex: flexbox
 .part5 {
     height: $height;
-    background-color: color(two);
+    background-color: color(one);
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-around;
     flex-direction: row;
 
     h1 {
         margin-left: 60px;
         font-size: 3em;
+        color: color(two);
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .imagecontainerP5 {
+        height: 60%;
+        width: 50%;
+        background:url(../img/illustrationHighParties/3.jpg);
+        background-size: cover;
+    }
+
+    span {
+        text-shadow: -1px 0 color(two), 0 1px color(two), 1px 0 color(two), 0 -1px color(two) !important;
+        color: color(one) !important;
+        background-color: color(one) !important;
+        font-weight: bolder;
+        text-transform: uppercase;
     }
 }
 
+
 //Le design générales des objets de l'ecran 6 ; ex: flexbox
-.part6 {
+
+.fp-controlArrow {
+    background-color: black;
+}
+
+.part6Elements {
+    background-color: color(one);
     height: 100vh;
-    background-color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: $main-fonts;
+
+    .descriptionP6 {
+        margin-left: 60px;
+
+        h1 {
+            font-size: 2.5em;
+            color: color(two);
+            font-weight: bolder;
+
+            span {
+                text-shadow: -1px 0 color(two), 0 1px color(two), 1px 0 color(two), 0 -1px color(two) !important;
+                color: color(one) !important;
+                background-color: color(one) !important;
+                font-weight: bolder;
+                text-transform: uppercase;
+            }
+        }
+
+        p {
+            font-size: 1.2em;
+            width: 275px;
+            color: color(two);
+        }
+
+        .outlined {
+            margin-top: 15px;
+            padding: 10px 15px 10px 15px;
+            border-radius: 5px;
+            background-color: color(one);
+            border: 2px solid color(three);
+            color: color(three);
+            font-weight: bold;
+            outline: none;
+            font-family: $main-fonts;
+        }
+
+        .outlined:hover {
+            background-color: rgba(66, 135, 245, 0.1);
+        }
+
+        .outlined:focus {
+            background-color: rgba(66, 135, 245, 0.2);
+        }
+
+        .outlined:active {
+            background-color: rgba(66, 135, 245, 0.3);
+        }
+    }
+
+
+}
+
+#imagecontainerP6_1 {
+    display: flex;
+    justify-content: flex-end;
+    background: no-repeat left url(../img/imagesSlides/VS.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    margin: 0 60px 0 100px;
+
+    span {
+        img {
+            height: 65%;
+            width: 65%;
+        }
+    }
+}
+
+#imagecontainerP6_2 {
+    display: flex;
+    justify-content: flex-end;
+    background: no-repeat center url(../img/imagesSlides/HTMLCSS.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    margin: 0 60px 0 100px;
+}
+
+#imagecontainerP6_3 {
+    display: flex;
+    justify-content: flex-end;
+    background: no-repeat center url(../img/imagesSlides/JS.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    margin: 0 60px 0 100px;
+}
+
+#imagecontainerP6_4 {
+    display: flex;
+    justify-content: flex-end;
+    background: no-repeat center url(../img/imagesSlides/Progra.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    margin: 0 60px 0 100px;
+}
+
+#imagecontainerP6_5 {
+    display: flex;
+    justify-content: flex-end;
+    background: no-repeat center url(../img/imagesSlides/git.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    margin: 0 60px 0 100px;
 }
