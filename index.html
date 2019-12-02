@@ -89,8 +89,9 @@
 
             <!-- div parentes des éléments appelable dans css ; notre zone de travail-->
             <div class="part5">
-                <h1>Je veux!<br>Je veux!</h1>
-
+                <h1>Je veux !<br><span>je veux !</span></h1>
+                <div class="imagecontainerP5">
+                </div>
             </div>
 
         </div>
@@ -103,8 +104,20 @@
 
                 <div class="slide">
 
-                    <div id="part6_1">
+                    <div class="part6Elements">
 
+                        <div class="descriptionP6">
+                            <h1>Pour commencer<br><span>Visual Studio Code</span></h1>
+                            <p>Il te faut un éditeur de texte nous te proposons Visual Studio Code.<br>C'est un
+                                editeur
+                                Open Source performant et très modulable grâce à son store d'extentions</p>
+                            <button class="outlined">GO</button>
+                        </div>
+
+
+                        <div id="imagecontainerP6_1">
+                            <span></span>
+                        </div>
 
                     </div>
 
@@ -112,94 +125,133 @@
 
                 <div class="slide">
 
-                    <div class="part6_2">
-                        <h1>5</h1>
+                    <div class="part6Elements">
+                        <div class="descriptionP6">
+                            <h1>Ensuite<br><span>html et css</span></h1>
+                            <p>Nous te conseillons d'apprendre l'HTML et CSS pour débuter.<br> Ce sont les languages
+                                utilisés pour structurer des sites web et les styliser</p>
+                            <button class="outlined">GO</button>
+                        </div>
+
+
+                        <div id="imagecontainerP6_2">
+                        </div>
                     </div>
 
                 </div>
 
                 <div class="slide">
 
-                    <div class="part6_3">
-                        <h1>5</h1>
+                    <div class="part6Elements">
+                        <div class="descriptionP6">
+                            <h1>Mais encore<br><span>javascript</span></h1>
+                            <p>Une fois tes bases établient pourquoi ne pas les appronfondir avec du JavaScript.<br>
+                                C'est un langage de programmation, il rendera tes pages dynamiques et bien plus encore !
+                            </p>
+                            <button class="outlined">GO</button>
+                        </div>
+
+
+                        <div id="imagecontainerP6_3">
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="slide">
+                    <div class="part6Elements">
+                        <div class="descriptionP6">
+                            <h1>C'est tout ?<br><span>non</span></h1>
+                            <p>Il te restes encore beaucoup d'autres langages à apprendre <br>Tu as une idée tête ? <br>
+                                Il existe une multitude de façon de la réaliser !</p>
+                            <button class="outlined">GO</button>
+                        </div>
+
+
+                        <div id="imagecontainerP6_4">
+                        </div>
                     </div>
 
                 </div>
 
                 <div class="slide">
 
-                    <div class="part6_4">
-                        <h1>5</h1>
+                    <div class="part6Elements">
+                        <div class="descriptionP6">
+                            <h1>Hep! Hep!<br><span>Github</span></h1>
+                            <p>Il ne te restes plus qu'à publier tes projet en Open Source pour nous rejoindre !<br>Nous
+                                te conseillons Github une platforme gratuite pour publier tes projets.<br>
+                                Il ne te reste plus qu'à te lancer !</p>
+                            <button class="outlined">GO</button>
+                        </div>
+
+
+                        <div id="imagecontainerP6_5">
+                        </div>
+
                     </div>
 
                 </div>
-
-                <div class="slide">
-
-                    <div class="part6_5">
-                        <h1>5</h1>
-                    </div>
-
-                </div>
-
             </div>
+
+
         </div>
 
 
-    </div>
+        <!-- CDN de la librairie fullPageJS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.js"
+            integrity="sha256-e13jRNqOX98m6UAwI/yZTpcDseJtA8s86yfFs4Sqrv8=" crossorigin="anonymous"></script>
 
+        <!-- CDN de la librairie typedJS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
+            integrity="sha256-+izcH23qgte+aiGZRxk63BxGUyoQrAQZVoH2zKU9usM=" crossorigin="anonymous"></script>
 
-    <!-- CDN de la librairie fullPageJS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.js"
-        integrity="sha256-e13jRNqOX98m6UAwI/yZTpcDseJtA8s86yfFs4Sqrv8=" crossorigin="anonymous"></script>
-
-    <!-- CDN de la librairie typedJS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
-        integrity="sha256-+izcH23qgte+aiGZRxk63BxGUyoQrAQZVoH2zKU9usM=" crossorigin="anonymous"></script>
-
-    <!--  Documentation complete https://github.com/alvarotrigo/fullPage.js/#fullpagejs -->
-    <script>
-        new fullpage('#fullPage', {
-            //pour donner l'effet de bloc par bloc au scroll
-            autoScrolling: true,
-            //afficher les boules de naviagtion sur le cote
-            navigation: true,
-            //pour animer les ancres 
-            anchors: ['part1', 'part2', 'part3', 'part4', 'part5'],
-            //afficher le texte sur les boules en hover et pour ajouter des pages appelablent par les boules
-            navigationTooltips: ['Hello!', 'Top 10', 'Open Source ?', 'Ses avantages',
-                'Et moi alors !',
-                'Il faut bien un début à tout'
-            ],
-            //afficher la boule active
-            showActiveTooltip: true,
-            //modifier la vitesse de scroll des parties    
-            scrollingSpeed: 600,
-            //cacher les grosses fleches sur les cotes pour la partie slide
-            controlArrows: true,
-            //afficher des boules pour la partie scroll horizontale comme la partie verticale
-            slidesNavigation: true,
-            onLeave: function (origin, dest, dir) {
-                if (dest.index === 5) {
-                    document.querySelector("#fp-nav").style.display = "none"
-                } else {
-                    document.querySelector("#fp-nav").style.display = ""
+        <!--  Documentation complete https://github.com/alvarotrigo/fullPage.js/#fullpagejs -->
+        <script>
+            new fullpage('#fullPage', {
+                //pour donner l'effet de bloc par bloc au scroll
+                autoScrolling: true,
+                //afficher les boules de naviagtion sur le cote
+                navigation: true,
+                //pour animer les ancres 
+                anchors: ['part1', 'part2', 'part3', 'part4', 'part5'],
+                //afficher le texte sur les boules en hover et pour ajouter des pages appelablent par les boules
+                navigationTooltips: ['Hello!', 'Top 10', 'Open Source ?', 'Ses avantages',
+                    'Et moi alors !',
+                    'Il faut bien un début à tout'
+                ],
+                //afficher la boule active
+                showActiveTooltip: true,
+                //modifier la vitesse de scroll des parties    
+                scrollingSpeed: 600,
+                //cacher les grosses fleches sur les cotes pour la partie slide
+                controlArrows: false,
+                //afficher des boules pour la partie scroll horizontale comme la partie verticale
+                slidesNavigation: true,
+                onLeave: function (origin, dest, dir) {
+                    if (dest.index === 5) {
+                        document.querySelector("#fp-nav").style.display = "none"
+                    } else {
+                        document.querySelector("#fp-nav").style.display = ""
+                    }
                 }
-            }
-        })
+            })
 
-        // Documentation complete: https://github.com/mattboldt/typed.js/
-        var typed5 = new Typed('#typed5', {
-            strings: ['Sam ! ^100', 'Lola ! ^100', 'Tom ! ^100', 'Sarah ! ^100', 'Dan ! ^100', 'à toi ! ^100'],
-            startDelay: 50,
-            typeSpeed: 60,
-            backSpeed: 40,
-            cursorChar: '_',
-            shuffle: false,
-            smartBackspace: true,
-            loop: true
-        });
-    </script>
+            // Documentation complete: https://github.com/mattboldt/typed.js/
+            var typed5 = new Typed('#typed5', {
+                strings: ['Sam ! ^100', 'Lola ! ^100', 'Tom ! ^100', 'Sarah ! ^100', 'Dan ! ^100',
+                    'à toi ! ^100'
+                ],
+                startDelay: 50,
+                typeSpeed: 60,
+                backSpeed: 40,
+                cursorChar: '_',
+                shuffle: false,
+                smartBackspace: true,
+                loop: true
+            });
+        </script>
 </body>
 
 </html>
