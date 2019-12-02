@@ -3,10 +3,8 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  /*text-align: center;*/
-}
-
-p {
+h1,
+h2 p {
   font-family: "Zilla Slab", serif;
   font-size: 1.3rem;
   line-height: 1.5rem;
@@ -22,9 +20,86 @@ h1, h2 {
   font-size: -webkit-xxx-large;
 }
 
+span {
+  background-color: #FFFFFF !important;
+}
+
+#fp-nav ul li .fp-tooltip {
+  font-family: "Zilla Slab", serif !important;
+  font-size: 20px !important;
+  top: -6px !important;
+  font-weight: lighter;
+}
+
 .part1 {
   height: 100vh;
-  background-color: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: no-repeat bottom url("../img/backgroundPage1.1.jpg");
+  background-size: cover;
+}
+
+.part1 #logoP1 h2 {
+  color: #FFFFFF;
+  font-family: "Zilla Slab", serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 15px 0 0 30px;
+  font-weight: bold;
+}
+
+.part1 #titreP1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: -120px;
+  margin-bottom: 40px;
+  border-bottom: 3px solid #FFF44F;
+  width: 348px;
+  text-align: center;
+}
+
+.part1 #titreP1 h1 {
+  color: #000000;
+  font-size: 8em;
+  text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF;
+  font-weight: bold;
+}
+
+.part1 #titreP1 p {
+  font-family: "Zilla Slab", serif;
+  color: #FFFFFF;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.part1 #textanimP1 h2 {
+  text-align: center;
+  font-size: 2em;
+  font-family: "Zilla Slab", serif;
+  color: #FFFFFF;
+  margin: 0 !important;
+}
+
+.part1 #textanimP1 h2 span {
+  background-color: #000000 !important;
+  font-weight: lighter !important;
 }
 
 .part2 {
@@ -83,11 +158,189 @@ h1, h2 {
 
 .part5 {
   height: 100vh;
-  background-color: blue;
+  background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
-.part6 {
+.part5 h1 {
+  margin-left: 60px;
+  font-size: 3em;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.part5 .imagecontainerP5 {
+  height: 60%;
+  width: 50%;
+  background: url(../img/illustrationHighParties/3.jpg);
+  background-size: cover;
+}
+
+.part5 span {
+  text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF !important;
+  color: #000000 !important;
+  background-color: #000000 !important;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.fp-controlArrow {
+  background-color: black;
+}
+
+.part6Elements {
+  background-color: #000000;
   height: 100vh;
-  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Zilla Slab", serif;
+}
+
+.part6Elements .descriptionP6 {
+  margin-left: 60px;
+}
+
+.part6Elements .descriptionP6 h1 {
+  font-size: 2.5em;
+  color: #FFFFFF;
+  font-weight: bolder;
+}
+
+.part6Elements .descriptionP6 h1 span {
+  text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF !important;
+  color: #000000 !important;
+  background-color: #000000 !important;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.part6Elements .descriptionP6 p {
+  font-size: 1.2em;
+  width: 275px;
+  color: #FFFFFF;
+}
+
+.part6Elements .descriptionP6 .outlined {
+  margin-top: 15px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  background-color: #000000;
+  border: 2px solid #FFF44F;
+  color: #FFF44F;
+  font-weight: bold;
+  outline: none;
+  font-family: "Zilla Slab", serif;
+}
+
+.part6Elements .descriptionP6 .outlined:hover {
+  background-color: rgba(66, 135, 245, 0.1);
+}
+
+.part6Elements .descriptionP6 .outlined:focus {
+  background-color: rgba(66, 135, 245, 0.2);
+}
+
+.part6Elements .descriptionP6 .outlined:active {
+  background-color: rgba(66, 135, 245, 0.3);
+}
+
+#imagecontainerP6_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: no-repeat left url(../img/imagesSlides/VS.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+  margin: 0 60px 0 100px;
+}
+
+#imagecontainerP6_1 span img {
+  height: 65%;
+  width: 65%;
+}
+
+#imagecontainerP6_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: no-repeat center url(../img/imagesSlides/HTMLCSS.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+  margin: 0 60px 0 100px;
+}
+
+#imagecontainerP6_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: no-repeat center url(../img/imagesSlides/JS.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+  margin: 0 60px 0 100px;
+}
+
+#imagecontainerP6_4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: no-repeat center url(../img/imagesSlides/Progra.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+  margin: 0 60px 0 100px;
+}
+
+#imagecontainerP6_5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: no-repeat center url(../img/imagesSlides/git.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+  margin: 0 60px 0 100px;
 }
 /*# sourceMappingURL=main.css.map */
