@@ -18,10 +18,12 @@ $height: 100vh;
 
     //Le design générales pour tous les textes et titres
     h1,
-    h2, p {
+    h2,
+    p {
         font-family: $main-fonts;
         font-size: 1.3rem;
     }
+
     //le design des boules de la navigation
     span {
         background-color: color(two) !important;
@@ -42,7 +44,7 @@ $height: 100vh;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background: no-repeat bottom url("../img/backgroundPage1.1.jpg");
+        background: no-repeat bottom url("../img/background.jpg");
         background-size: cover;
 
         #logoP1 {
@@ -179,12 +181,13 @@ $height: 100vh;
     }
 
 
-    //Le design générales des objets de l'ecran 6 ; ex: flexbox
-
-    .fp-controlArrow {
-        background-color: black;
+    .fp-slidesNav {
+        ul {
+            margin-left: 44% !important;
+        }
     }
 
+    //Le design générales des objets de l'ecran 6 ; ex: flexbox
     .part6Elements {
         background-color: color(one);
         height: 100vh;
@@ -196,10 +199,11 @@ $height: 100vh;
         .descriptionP6 {
             margin-left: 60px;
 
-            h1 {
-                font-size: 2.5em;
+            h2 {
+                font-size: 5.9vh;
                 color: color(two);
                 font-weight: bolder;
+                line-height: 5.9vh;
 
                 span {
                     text-shadow: -1px 0 color(two), 0 1px color(two), 1px 0 color(two), 0 -1px color(two) !important;
@@ -211,33 +215,29 @@ $height: 100vh;
             }
 
             p {
-                font-size: 1.2em;
+                font-size: 3.2vh;
                 width: 275px;
                 color: color(two);
+                margin: 3px 0 25px 0;
             }
 
-            .outlined {
-                margin-top: 15px;
+            .buttonP6 {
                 padding: 10px 15px 10px 15px;
                 border-radius: 5px;
                 background-color: color(one);
                 border: 2px solid color(three);
                 color: color(three);
-                font-weight: bold;
+                text-decoration: none;
                 outline: none;
                 font-family: $main-fonts;
             }
 
-            .outlined:hover {
-                background-color: rgba(66, 135, 245, 0.1);
+            .buttonP6:hover {
+                background-color: rgba(255,244,79, 0.1);
             }
-
-            .outlined:focus {
-                background-color: rgba(66, 135, 245, 0.2);
-            }
-
-            .outlined:active {
-                background-color: rgba(66, 135, 245, 0.3);
+            
+            .buttonP6:active {
+                background-color: rgba(255,244,79, 0.1);
             }
         }
 
