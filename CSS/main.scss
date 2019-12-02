@@ -1,6 +1,6 @@
 $main-fonts: 'Zilla Slab',
 serif; //font-family: $main-fonts;
-$colors: (one: #000000, two: #FFFFFF, three: #FFF44F);
+$colors: (one: #000000, two: #FFFFFF, three: #FFF44F, four:transparent);
 
 //La fonction pour appeler la varaiable des couleurs
 @function color($color-name) {
@@ -14,13 +14,23 @@ $colors: (one: #000000, two: #FFFFFF, three: #FFF44F);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 //Le design générales pour tout les texte et titres
-h1,
+
 p {
     font-family: $main-fonts;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+
+h1,h2{
+    font-family: $main-fonts;
+    -webkit-text-stroke-width: 3px; /*epaisseur des trait typographique*/
+    -webkit-text-stroke-color:color(one); /*couleur des traits typographique*/
+    color:color(four);
+    font-size:-webkit-xxx-large;
 }
 
 //Le design générales des objets de l'ecran 1 ; ex: flexbox
@@ -39,6 +49,19 @@ p {
 .part3 {
     height: 100vh;
     background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 495px;
+    }
+
+    div{
+        width: 45%;
+        text-align:right;
+        
+    }
 }
 
 //Le design générales des objets de l'ecran 4 ; ex: flexbox
@@ -46,8 +69,16 @@ p {
     height: 100vh;
     background-color: color(two);
     display: flex;
-    justify-content: space-around;
+    flex-direction: row-reverse;
     align-items: center;
+    justify-content: center;
+    img {
+        width: 495px;
+    }
+
+    div{
+        width: 45%;
+    }
 }
 
 //Le design générales des objets de l'ecran 5 ; ex: flexbox
@@ -61,3 +92,10 @@ p {
     height: 100vh;
     background-color: red;
 }
+
+
+
+
+
+
+   

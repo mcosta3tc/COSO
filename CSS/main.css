@@ -3,12 +3,23 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  text-align: center;
+  /*text-align: center;*/
 }
 
-h1,
 p {
   font-family: "Zilla Slab", serif;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+
+h1, h2 {
+  font-family: "Zilla Slab", serif;
+  -webkit-text-stroke-width: 3px;
+  /*epaisseur des trait typographique*/
+  -webkit-text-stroke-color: #000000;
+  /*couleur des traits typographique*/
+  color: transparent;
+  font-size: -webkit-xxx-large;
 }
 
 .part1 {
@@ -24,6 +35,24 @@ p {
 .part3 {
   height: 100vh;
   background-color: pink;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.part3 img {
+  width: 495px;
+}
+
+.part3 div {
+  width: 45%;
+  text-align: right;
 }
 
 .part4 {
@@ -32,11 +61,24 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.part4 img {
+  width: 495px;
+}
+
+.part4 div {
+  width: 45%;
 }
 
 .part5 {
