@@ -9,7 +9,7 @@
 * h2,
 * p {
   font-family: "Zilla Slab", serif;
-  font-size: 1.3rem;
+  font-size: 3.2vh;
 }
 
 * span {
@@ -48,8 +48,9 @@
   position: absolute;
   top: 0;
   left: 0;
-  margin: 15px 0 0 30px;
+  margin: 30px 0 0 60px;
   font-weight: bold;
+  font-size: 4.4vh;
 }
 
 * .part1 #titreP1 {
@@ -77,13 +78,13 @@
 * .part1 #titreP1 p {
   font-family: "Zilla Slab", serif;
   color: #FFFFFF;
-  font-size: 2em;
+  font-size: 4.4vh;
   font-weight: bold;
 }
 
 * .part1 #textanimP1 h2 {
   text-align: center;
-  font-size: 2em;
+  font-size: 4.4vh;
   font-family: "Zilla Slab", serif;
   color: #FFFFFF;
   margin: 0 !important;
@@ -266,6 +267,7 @@
   height: 80%;
   border-radius: 10px;
   margin: 0 60px 0 100px;
+  border: 2px solid #FFFFFF;
 }
 
 * #imagecontainerP6_1 span img {
@@ -286,6 +288,7 @@
   height: 80%;
   border-radius: 10px;
   margin: 0 60px 0 100px;
+  border: 2px solid #FFFFFF;
 }
 
 * #imagecontainerP6_3 {
@@ -301,6 +304,7 @@
   height: 80%;
   border-radius: 10px;
   margin: 0 60px 0 100px;
+  border: 2px solid #FFFFFF;
 }
 
 * #imagecontainerP6_4 {
@@ -316,6 +320,7 @@
   height: 80%;
   border-radius: 10px;
   margin: 0 60px 0 100px;
+  border: 2px solid #FFFFFF;
 }
 
 * #imagecontainerP6_5 {
@@ -331,5 +336,6 @@
   height: 80%;
   border-radius: 10px;
   margin: 0 60px 0 100px;
+  border: 2px solid #FFFFFF;
 }
 /*# sourceMappingURL=main.css.map */
