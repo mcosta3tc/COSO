@@ -117,16 +117,15 @@ span {
 
 .part5 {
   height: 100vh;
-  background-color: #FFFFFF;
+  background-color: #000000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -136,6 +135,22 @@ span {
 .part5 h1 {
   margin-left: 60px;
   font-size: 3em;
+  color: #FFFFFF;
+}
+
+.part5 .imagecontainerP5 {
+  height: 60%;
+  width: 50%;
+  background: url(../img/illustrationHighParties/3.jpg);
+  background-size: cover;
+}
+
+.part5 span {
+  text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF !important;
+  color: #000000 !important;
+  background-color: #000000 !important;
+  font-weight: bolder;
+  text-transform: uppercase;
 }
 
 .fp-controlArrow {

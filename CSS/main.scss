@@ -127,17 +127,34 @@ span {
 //Le design générales des objets de l'ecran 5 ; ex: flexbox
 .part5 {
     height: $height;
-    background-color: color(two);
+    background-color: color(one);
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-around;
     flex-direction: row;
 
     h1 {
         margin-left: 60px;
         font-size: 3em;
+        color: color(two);
+    }
+
+    .imagecontainerP5 {
+        height: 60%;
+        width: 50%;
+        background:url(../img/illustrationHighParties/3.jpg);
+        background-size: cover;
+    }
+
+    span {
+        text-shadow: -1px 0 color(two), 0 1px color(two), 1px 0 color(two), 0 -1px color(two) !important;
+        color: color(one) !important;
+        background-color: color(one) !important;
+        font-weight: bolder;
+        text-transform: uppercase;
     }
 }
+
 
 //Le design générales des objets de l'ecran 6 ; ex: flexbox
 
