@@ -136,6 +136,8 @@ span {
   margin-left: 60px;
   font-size: 3em;
   color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .part5 .imagecontainerP5 {
