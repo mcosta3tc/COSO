@@ -341,7 +341,7 @@ span {
 }
 
 .part6Elements .descriptionP6 h2 #descriptionP6_5 {
-  text-shadow: -1px 0 #00FFFF, 0 1px #00FFFF, 1px 0 #00FFFF, 0 -1px #00FFFF !important;
+  text-shadow: -1px 0 #FFF44F, 0 1px #FFF44F, 1px 0 #FFF44F, 0 -1px #FFF44F !important;
 }
 
 .part6Elements .descriptionP6 p {
@@ -414,16 +414,16 @@ span {
 }
 
 .part6Elements .descriptionP6 #buttonP6_5 {
-  border: 2px solid #00FFFF;
-  color: #00FFFF;
+  border: 2px solid #FFF44F;
+  color: #FFF44F;
 }
 
 .part6Elements .descriptionP6 #buttonP6_5:hover {
-  background-color: rgba(0, 255, 255, 0.1);
+  background-color: rgba(255, 244, 79, 0.1);
 }
 
 .part6Elements .descriptionP6 #buttonP6_5:active {
-  background-color: rgba(0, 255, 255, 0.1);
+  background-color: rgba(255, 244, 79, 0.1);
 }
 
 #imagecontainerP6_1 {

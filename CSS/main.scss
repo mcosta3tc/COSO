@@ -150,9 +150,9 @@ span {
             line-height: 5.9vh;
 
             span {
-                text-shadow: -1px 0 color(five), 0 1px color(five), 1px 0 color(five), 0 -1px color(five)!important;
-                color: color(one)!important;
-                background-color: color(one)!important;
+                text-shadow: -1px 0 color(five), 0 1px color(five), 1px 0 color(five), 0 -1px color(five) !important;
+                color: color(one) !important;
+                background-color: color(one) !important;
                 font-weight: bold;
                 text-transform: uppercase;
             }
@@ -319,7 +319,7 @@ span {
             }
 
             #descriptionP6_5 {
-                text-shadow: -1px 0 color(four), 0 1px color(four), 1px 0 color(four), 0 -1px color(four) !important;
+                text-shadow: -1px 0 color(three), 0 1px color(three), 1px 0 color(three), 0 -1px color(three) !important;
             }
         }
 
@@ -359,13 +359,13 @@ span {
             border: 2px solid color(four);
             color: color(four);
         }
-        
-        
+
+
         #buttonP6_2:hover {
             background-color: rgba(0, 255, 255, 0.1);
         }
-        
-        
+
+
         #buttonP6_2:active {
             background-color: rgba(0, 255, 255, 0.1);
         }
@@ -374,45 +374,45 @@ span {
             border: 2px solid color(five);
             color: color(five);
         }
-        
-        
+
+
         #buttonP6_3:hover {
             background-color: rgba(255, 79, 94, 0.1);
         }
-        
-        
+
+
         #buttonP6_3:active {
             background-color: rgba(255, 79, 94, 0.1);
         }
-        
+
         #buttonP6_4 {
             border: 2px solid color(six);
             color: color(six);
         }
-        
-        
+
+
         #buttonP6_4:hover {
             background-color: rgba(84, 255, 189, 0.1);
         }
-        
-        
+
+
         #buttonP6_4:active {
             background-color: rgba(84, 255, 189, 0.1);
         }
 
         #buttonP6_5 {
-            border: 2px solid color(four);
-            color: color(four);
+            border: 2px solid color(three);
+            color: color(three);
         }
-        
-        
+
+
         #buttonP6_5:hover {
-            background-color: rgba(0, 255, 255, 0.1);
+            background-color: rgba(255, 244, 79, 0.1);
         }
-        
-        
+
+
         #buttonP6_5:active {
-            background-color: rgba(0, 255, 255, 0.1);
+            background-color: rgba(255, 244, 79, 0.1);
         }
     }
 }
@@ -485,4 +485,3 @@ span {
     border-radius: 10px;
     margin: 0 60px 0 100px;
 }
-
