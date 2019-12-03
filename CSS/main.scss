@@ -254,13 +254,13 @@ $height: 100vh;
     #imagecontainerP6_1 {
         display: flex;
         justify-content: flex-end;
-        background: no-repeat left url(../img/imagesSlides/VS.jpg);
+        background: no-repeat center url(../img/imagesSlides/VS.png);
         background-size: cover;
         width: 100%;
         height: 80%;
         border-radius: 10px;
         margin: 0 60px 0 100px;
-        border: 2px solid color(two);
+
 
         span {
             img {
@@ -274,51 +274,51 @@ $height: 100vh;
     #imagecontainerP6_2 {
         display: flex;
         justify-content: flex-end;
-        background: no-repeat center url(../img/imagesSlides/HTMLCSS.jpg);
+        background: no-repeat center url(../img/imagesSlides/HTMCSS.png);
         background-size: cover;
         width: 100%;
         height: 80%;
         border-radius: 10px;
         margin: 0 60px 0 100px;
-        border: 2px solid color(two);
+
     }
 
     //Image container design slide 3
     #imagecontainerP6_3 {
         display: flex;
         justify-content: flex-end;
-        background: no-repeat center url(../img/imagesSlides/JS.jpg);
+        background: no-repeat center url(../img/imagesSlides/JS.png);
         background-size: cover;
         width: 100%;
         height: 80%;
         border-radius: 10px;
         margin: 0 60px 0 100px;
-        border: 2px solid color(two);
+    
     }
 
     //Image container design slide 4
     #imagecontainerP6_4 {
         display: flex;
         justify-content: flex-end;
-        background: no-repeat center url(../img/imagesSlides/Progra.jpg);
+        background: no-repeat center url(../img/imagesSlides/Progra.png);
         background-size: cover;
         width: 100%;
         height: 80%;
         border-radius: 10px;
         margin: 0 60px 0 100px;
-        border: 2px solid color(two);
+       
     }
 
     //Image container design slide 5
     #imagecontainerP6_5 {
         display: flex;
         justify-content: flex-end;
-        background: no-repeat center url(../img/imagesSlides/git.jpg);
+        background: no-repeat center url(../img/imagesSlides/git.png);
         background-size: cover;
         width: 100%;
         height: 80%;
         border-radius: 10px;
         margin: 0 60px 0 100px;
-        border: 2px solid color(two);
+     
     }
 }

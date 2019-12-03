@@ -262,13 +262,12 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background: no-repeat left url(../img/imagesSlides/VS.jpg);
+  background: no-repeat center url(../img/imagesSlides/VS.png);
   background-size: cover;
   width: 100%;
   height: 80%;
   border-radius: 10px;
   margin: 0 60px 0 100px;
-  border: 2px solid #FFFFFF;
 }
 
 * #imagecontainerP6_1 span img {
@@ -283,13 +282,12 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background: no-repeat center url(../img/imagesSlides/HTMLCSS.jpg);
+  background: no-repeat center url(../img/imagesSlides/HTMCSS.png);
   background-size: cover;
   width: 100%;
   height: 80%;
   border-radius: 10px;
   margin: 0 60px 0 100px;
-  border: 2px solid #FFFFFF;
 }
 
 * #imagecontainerP6_3 {
@@ -299,13 +297,12 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background: no-repeat center url(../img/imagesSlides/JS.jpg);
+  background: no-repeat center url(../img/imagesSlides/JS.png);
   background-size: cover;
   width: 100%;
   height: 80%;
   border-radius: 10px;
   margin: 0 60px 0 100px;
-  border: 2px solid #FFFFFF;
 }
 
 * #imagecontainerP6_4 {
@@ -315,13 +312,12 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background: no-repeat center url(../img/imagesSlides/Progra.jpg);
+  background: no-repeat center url(../img/imagesSlides/Progra.png);
   background-size: cover;
   width: 100%;
   height: 80%;
   border-radius: 10px;
   margin: 0 60px 0 100px;
-  border: 2px solid #FFFFFF;
 }
 
 * #imagecontainerP6_5 {
@@ -331,12 +327,11 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background: no-repeat center url(../img/imagesSlides/git.jpg);
+  background: no-repeat center url(../img/imagesSlides/git.png);
   background-size: cover;
   width: 100%;
   height: 80%;
   border-radius: 10px;
   margin: 0 60px 0 100px;
-  border: 2px solid #FFFFFF;
 }
 /*# sourceMappingURL=main.css.map */
