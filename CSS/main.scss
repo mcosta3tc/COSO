@@ -227,7 +227,7 @@ $height: 100vh;
             }
 
             //Product button design
-            .buttonP6 {
+            .buttonP6_1 {
                 padding: 10px 15px 10px 15px;
                 border-radius: 5px;
                 background-color: color(one);
@@ -238,11 +238,11 @@ $height: 100vh;
                 font-family: $main-fonts;
             }
 
-            .buttonP6:hover {
+            .buttonP6_1:hover {
                 background-color: rgba(255, 244, 79, 0.1);
             }
 
-            .buttonP6:active {
+            .buttonP6_1:active {
                 background-color: rgba(255, 244, 79, 0.1);
             }
         }
@@ -280,8 +280,28 @@ $height: 100vh;
         height: 80%;
         border-radius: 10px;
         margin: 0 60px 0 100px;
-
     }
+
+    .buttonP6_2 {
+        padding: 10px 15px 10px 15px;
+        border-radius: 5px;
+        background-color: color(one);
+        border: 2px solid color(four);
+        color: color(four);
+        text-decoration: none;
+        outline: none;
+        font-family: $main-fonts;
+    }
+
+    .buttonP6_2:hover {
+        background-color: rgba(0,255,255, 0.1);
+    }
+
+    .buttonP6_2:active {
+        background-color: rgba(0,255,255, 0.1);
+    }
+
+    
 
     //Image container design slide 3
     #imagecontainerP6_3 {
@@ -294,6 +314,25 @@ $height: 100vh;
         border-radius: 10px;
         margin: 0 60px 0 100px;
     
+    }
+
+    .buttonP6_3 {
+        padding: 10px 15px 10px 15px;
+        border-radius: 5px;
+        background-color: color(one);
+        border: 2px solid color(five);
+        color: color(five);
+        text-decoration: none;
+        outline: none;
+        font-family: $main-fonts;
+    }
+
+    .buttonP6_3:hover {
+        background-color: rgba(255,79,94, 0.1);
+    }
+
+    .buttonP6_3:active {
+        background-color: rgba(255,79,94, 0.1);
     }
 
     //Image container design slide 4
@@ -309,6 +348,26 @@ $height: 100vh;
        
     }
 
+    .buttonP6_4 {
+        padding: 10px 15px 10px 15px;
+        border-radius: 5px;
+        background-color: color(one);
+        border: 2px solid color(six);
+        color: color(six);
+        text-decoration: none;
+        outline: none;
+        font-family: $main-fonts;
+    }
+
+    .buttonP6_4:hover {
+        background-color: rgba(84,255,189, 0.1);
+    }
+
+    .buttonP6_4:active {
+        background-color: rgba(84,255,189, 0.1);
+    }
+
+
     //Image container design slide 5
     #imagecontainerP6_5 {
         display: flex;
@@ -320,5 +379,25 @@ $height: 100vh;
         border-radius: 10px;
         margin: 0 60px 0 100px;
      
+    }
+
+    
+    .buttonP6_5 {
+        padding: 10px 15px 10px 15px;
+        border-radius: 5px;
+        background-color: color(one);
+        border: 2px solid color(two);
+        color: color(two);
+        text-decoration: none;
+        outline: none;
+        font-family: $main-fonts;
+    }
+
+    .buttonP6_5:hover {
+        background-color: rgba(255,255,255, 0.1);
+    }
+
+    .buttonP6_5:active {
+        background-color: rgba(255,255,255, 0.1);
     }
 }

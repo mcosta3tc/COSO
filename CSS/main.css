@@ -236,7 +236,7 @@
   margin: 3px 0 25px 0;
 }
 
-* .part6Elements .descriptionP6 .buttonP6 {
+* .part6Elements .descriptionP6 .buttonP6_1 {
   padding: 10px 15px 10px 15px;
   border-radius: 5px;
   background-color: #000000;
@@ -247,11 +247,11 @@
   font-family: "Zilla Slab", serif;
 }
 
-* .part6Elements .descriptionP6 .buttonP6:hover {
+* .part6Elements .descriptionP6 .buttonP6_1:hover {
   background-color: rgba(255, 244, 79, 0.1);
 }
 
-* .part6Elements .descriptionP6 .buttonP6:active {
+* .part6Elements .descriptionP6 .buttonP6_1:active {
   background-color: rgba(255, 244, 79, 0.1);
 }
 
@@ -290,6 +290,25 @@
   margin: 0 60px 0 100px;
 }
 
+* .buttonP6_2 {
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  background-color: #000000;
+  border: 2px solid #00FFFF;
+  color: #00FFFF;
+  text-decoration: none;
+  outline: none;
+  font-family: "Zilla Slab", serif;
+}
+
+* .buttonP6_2:hover {
+  background-color: rgba(0, 255, 255, 0.1);
+}
+
+* .buttonP6_2:active {
+  background-color: rgba(0, 255, 255, 0.1);
+}
+
 * #imagecontainerP6_3 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -303,6 +322,25 @@
   height: 80%;
   border-radius: 10px;
   margin: 0 60px 0 100px;
+}
+
+* .buttonP6_3 {
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  background-color: #000000;
+  border: 2px solid #FF4F5E;
+  color: #FF4F5E;
+  text-decoration: none;
+  outline: none;
+  font-family: "Zilla Slab", serif;
+}
+
+* .buttonP6_3:hover {
+  background-color: rgba(255, 79, 94, 0.1);
+}
+
+* .buttonP6_3:active {
+  background-color: rgba(255, 79, 94, 0.1);
 }
 
 * #imagecontainerP6_4 {
@@ -320,6 +358,25 @@
   margin: 0 60px 0 100px;
 }
 
+* .buttonP6_4 {
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  background-color: #000000;
+  border: 2px solid #54FFBD;
+  color: #54FFBD;
+  text-decoration: none;
+  outline: none;
+  font-family: "Zilla Slab", serif;
+}
+
+* .buttonP6_4:hover {
+  background-color: rgba(84, 255, 189, 0.1);
+}
+
+* .buttonP6_4:active {
+  background-color: rgba(84, 255, 189, 0.1);
+}
+
 * #imagecontainerP6_5 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -333,5 +390,24 @@
   height: 80%;
   border-radius: 10px;
   margin: 0 60px 0 100px;
+}
+
+* .buttonP6_5 {
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  background-color: #000000;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  text-decoration: none;
+  outline: none;
+  font-family: "Zilla Slab", serif;
+}
+
+* .buttonP6_5:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+* .buttonP6_5:active {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 /*# sourceMappingURL=main.css.map */
