@@ -26,15 +26,16 @@ $height: 100vh;
 
     //le design des boules de la navigation
     span {
-        background-color: color(two) !important;
+        background-color: color(two)!important;
     }
 
     //le design du texte des boules de la navigation
     #fp-nav ul li .fp-tooltip {
-        font-family: $main-fonts !important;
-        font-size: 3vh !important;
+        font-family: $main-fonts!important;
+        font-size: 3.5vh!important;
+        font-weight: bold;
+        line-height: 4vh!important;
         top: -6px !important;
-        font-weight: lighter;
     }
 
     //Le design générales des objets de l'ecran 1
@@ -95,6 +96,7 @@ $height: 100vh;
                 font-family: $main-fonts;
                 color: color(two);
                 margin: 0 !important;
+                font-weight: bold;
 
                 span {
                     background-color: color(one) !important;
@@ -224,6 +226,7 @@ $height: 100vh;
                 width: 275px;
                 color: color(two);
                 margin: 3px 0 25px 0;
+                font-weight: bold;
             }
 
             //Product button design
@@ -294,14 +297,14 @@ $height: 100vh;
     }
 
     .buttonP6_2:hover {
-        background-color: rgba(0,255,255, 0.1);
+        background-color: rgba(0, 255, 255, 0.1);
     }
 
     .buttonP6_2:active {
-        background-color: rgba(0,255,255, 0.1);
+        background-color: rgba(0, 255, 255, 0.1);
     }
 
-    
+
 
     //Image container design slide 3
     #imagecontainerP6_3 {
@@ -313,7 +316,7 @@ $height: 100vh;
         height: 80%;
         border-radius: 10px;
         margin: 0 60px 0 100px;
-    
+
     }
 
     .buttonP6_3 {
@@ -328,11 +331,11 @@ $height: 100vh;
     }
 
     .buttonP6_3:hover {
-        background-color: rgba(255,79,94, 0.1);
+        background-color: rgba(255, 79, 94, 0.1);
     }
 
     .buttonP6_3:active {
-        background-color: rgba(255,79,94, 0.1);
+        background-color: rgba(255, 79, 94, 0.1);
     }
 
     //Image container design slide 4
@@ -345,7 +348,7 @@ $height: 100vh;
         height: 80%;
         border-radius: 10px;
         margin: 0 60px 0 100px;
-       
+
     }
 
     .buttonP6_4 {
@@ -360,11 +363,11 @@ $height: 100vh;
     }
 
     .buttonP6_4:hover {
-        background-color: rgba(84,255,189, 0.1);
+        background-color: rgba(84, 255, 189, 0.1);
     }
 
     .buttonP6_4:active {
-        background-color: rgba(84,255,189, 0.1);
+        background-color: rgba(84, 255, 189, 0.1);
     }
 
 
@@ -378,10 +381,10 @@ $height: 100vh;
         height: 80%;
         border-radius: 10px;
         margin: 0 60px 0 100px;
-     
+
     }
 
-    
+
     .buttonP6_5 {
         padding: 10px 15px 10px 15px;
         border-radius: 5px;
@@ -394,10 +397,10 @@ $height: 100vh;
     }
 
     .buttonP6_5:hover {
-        background-color: rgba(255,255,255, 0.1);
+        background-color: rgba(255, 255, 255, 0.1);
     }
 
     .buttonP6_5:active {
-        background-color: rgba(255,255,255, 0.1);
+        background-color: rgba(255, 255, 255, 0.1);
     }
 }
