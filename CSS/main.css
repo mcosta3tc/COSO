@@ -18,7 +18,7 @@
 
 * #fp-nav ul li .fp-tooltip {
   font-family: "Zilla Slab", serif !important;
-  font-size: 20px !important;
+  font-size: 3vh !important;
   top: -6px !important;
   font-weight: lighter;
 }
@@ -93,6 +93,7 @@
 * .part1 #textanimP1 h2 span {
   background-color: #000000 !important;
   font-weight: lighter !important;
+  color: #FFFFFF;
 }
 
 * .part2 {
