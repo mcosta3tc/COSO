@@ -5,26 +5,25 @@
           box-sizing: border-box;
 }
 
-* h1,
-* h2,
-* p {
+h1,
+h2,
+p {
   font-family: "Zilla Slab", serif;
-  font-weight: bold;
+  font-weight: lighter;
 }
 
-* span {
+span {
   background-color: #FFFFFF !important;
 }
 
-* #fp-nav ul li .fp-tooltip {
+#fp-nav ul li .fp-tooltip {
   font-family: "Zilla Slab", serif !important;
   font-size: 3.5vh !important;
-  font-weight: bold;
   line-height: 4vh !important;
   top: -6px !important;
 }
 
-* .part1 {
+.part1 {
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -43,7 +42,7 @@
   background-size: cover;
 }
 
-* .part1 #logoP1 h2 {
+.part1 #logoP1 h2 {
   color: #FFFFFF;
   font-family: "Zilla Slab", serif;
   position: absolute;
@@ -54,7 +53,7 @@
   font-size: 4.4vh;
 }
 
-* .part1 #titreP1 {
+.part1 #titreP1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -69,21 +68,21 @@
   text-align: center;
 }
 
-* .part1 #titreP1 h1 {
+.part1 #titreP1 h1 {
   color: #000000;
   font-size: 8em;
   text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF;
   font-weight: bold;
 }
 
-* .part1 #titreP1 p {
+.part1 #titreP1 p {
   font-family: "Zilla Slab", serif;
   color: #FFFFFF;
   font-size: 4.4vh;
   font-weight: bold;
 }
 
-* .part1 #textanimP1 h2 {
+.part1 #textanimP1 h2 {
   text-align: center;
   font-size: 4.4vh;
   font-family: "Zilla Slab", serif;
@@ -92,123 +91,24 @@
   font-weight: bold;
 }
 
-* .part1 #textanimP1 h2 span {
+.part1 #textanimP1 h2 span {
   background-color: #000000 !important;
   font-weight: lighter !important;
   color: #FFFFFF;
 }
 
-* .part2 {
+.part2 {
   height: 100vh;
   background-color: #000000;
   color: #FFFFFF;
 }
 
-* .part3 {
-  height: 100vh;
-  background-color: #000000;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  color: #FFFFFF;
-  font-size: 3.2vh;
-}
-
-* .part3 img {
-  width: 495px;
-  margin-right: 175px;
-}
-
-* .part3 .p3 {
-  width: 55%;
-  margin-left: 60px;
-  padding-right: 255px;
-}
-
-* .part3 h2 {
-  /*text-shadow: -1px 0 color(two), 0 1px color(two), 1px 0 color(two), 0 -1px color(two) !important;
-            color: color(one) !important;
-            background-color: color(one) !important;*/
-  font-weight: bolder;
-  text-transform: uppercase;
-  font-size: 5.9vh;
-}
-
-* .part3 span {
-  text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF !important;
-  color: #000000 !important;
-  background-color: #000000 !important;
-  font-weight: bolder;
-  text-transform: uppercase;
-}
-
-* .part4 {
+.part3 {
   height: 100vh;
   background-color: #000000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  color: #FFFFFF;
-}
-
-* .part4 img {
-  width: 495px;
-  margin-right: 175px;
-}
-
-* .part4 div {
-  width: 45%;
-  margin-left: 60px;
-  padding-right: 255px;
-}
-
-* .part4 h2 {
-  /*text-shadow: -1px 0 color(two), 0 1px color(two), 1px 0 color(two), 0 -1px color(two) !important;
-            color: color(one) !important;
-            background-color: color(one) !important;*/
-  font-weight: bolder;
-  text-transform: uppercase;
-  font-size: 5.9vh;
-  line-height: 5.9vh;
-}
-
-* .part4 span {
-  text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF !important;
-  color: #000000 !important;
-  background-color: #000000 !important;
-  font-weight: bolder;
-  text-transform: uppercase;
-}
-
-* .part4 ul li {
-  list-style: none;
-  font-family: "Zilla Slab", serif;
-  color: #FFFFFF;
-  font-size: 3.2vh;
-  font-weight: bold;
-}
-
-* .part5 {
-  height: 100vh;
-  background-color: #000000;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -216,55 +116,184 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  color: #FFFFFF;
-  /*.imagecontainerP5 {
-            height: 60%;
-            width: 50%;
-            background: url(../img/illustrationHighParties/3.jpg);
-            background-size: cover;
-        }*/
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-* .part5 h1 {
-  /*margin-left: 60px;*/
-  font-size: 3em;
+.part3 .imagecontainerP3 {
+  margin-left: 60px;
+  height: 70%;
+  width: 50%;
+}
+
+.part3 .descriptionP3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  margin: 0 15% 0 60px;
+  padding-right: 3%;
+}
+
+.part3 .descriptionP3 h2 {
+  font-size: 5.9vh;
   color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 5.9vh;
+}
+
+.part3 .descriptionP3 h2 span {
+  text-shadow: -1px 0 #FF4F5E, 0 1px #FF4F5E, 1px 0 #FF4F5E, 0 -1px #FF4F5E !important;
+  color: #000000 !important;
+  background-color: #000000 !important;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-* .part5 img {
-  width: 495px;
-  margin-right: 175px;
-}
-
-* .part5 div {
-  width: 45%;
-  margin-left: 60px;
-  padding-right: 255px;
-}
-
-* .part5 span {
-  text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF !important;
-  color: #000000 !important;
-  background-color: #000000 !important;
-  font-weight: bolder;
-  text-transform: uppercase;
-}
-
-* .part5 p {
+.part3 .descriptionP3 p {
   font-family: "Zilla Slab", serif;
   color: #FFFFFF;
   font-size: 3.2vh;
-  font-weight: bold;
+  font-weight: lighter;
 }
 
-* .fp-slidesNav ul {
+.part4 {
+  height: 100vh;
+  background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.part4 .imagecontainerP4 {
+  margin-right: 15%;
+  height: 70%;
+  width: 40%;
+}
+
+.part4 .descriptionP4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60%;
+  margin: 0 60px 0 60px;
+}
+
+.part4 .descriptionP4 h2 {
+  font-size: 5.9vh;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 5.9vh;
+}
+
+.part4 .descriptionP4 h2 span {
+  text-shadow: -1px 0 #54FFBD, 0 1px #54FFBD, 1px 0 #54FFBD, 0 -1px #54FFBD !important;
+  color: #000000 !important;
+  background-color: #000000 !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.part4 .descriptionP4 p {
+  font-family: "Zilla Slab", serif;
+  color: #FFFFFF;
+  font-size: 3.2vh;
+  font-weight: lighter;
+}
+
+.part4 .descriptionP4 p span {
+  color: #FFFFFF !important;
+  background-color: #000000 !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.part5 {
+  height: 100vh;
+  background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.part5 .imagecontainerP5 {
+  margin-left: 60px;
+  height: 70%;
+  width: 50%;
+}
+
+.part5 .descriptionP5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  margin: 0 15% 0 60px;
+  padding-right: 3%;
+}
+
+.part5 .descriptionP5 h2 {
+  font-size: 5.9vh;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 5.9vh;
+}
+
+.part5 .descriptionP5 h2 span {
+  text-shadow: -1px 0 #00FFFF, 0 1px #00FFFF, 1px 0 #00FFFF, 0 -1px #00FFFF !important;
+  color: #000000 !important;
+  background-color: #000000 !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.part5 .descriptionP5 p {
+  font-family: "Zilla Slab", serif;
+  color: #FFFFFF;
+  font-size: 3.2vh;
+  font-weight: lighter;
+}
+
+.fp-slidesNav ul {
   margin-left: 44% !important;
-
 }
 
-* .part6Elements {
+.part6Elements {
   background-color: #000000;
   height: 100vh;
   display: -webkit-box;
@@ -280,53 +309,124 @@
   font-family: "Zilla Slab", serif;
 }
 
-* .part6Elements .descriptionP6 {
+.part6Elements .descriptionP6 {
   margin-left: 60px;
 }
 
-* .part6Elements .descriptionP6 h2 {
+.part6Elements .descriptionP6 h2 {
   font-size: 5.9vh;
   color: #FFFFFF;
   font-weight: bolder;
   line-height: 5.9vh;
 }
 
-* .part6Elements .descriptionP6 h2 span {
-  text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF !important;
+.part6Elements .descriptionP6 h2 span {
+  text-shadow: -1px 0 #FFF44F, 0 1px #FFF44F, 1px 0 #FFF44F, 0 -1px #FFF44F !important;
   color: #000000 !important;
   background-color: #000000 !important;
   font-weight: bolder;
   text-transform: uppercase;
 }
 
-* .part6Elements .descriptionP6 p {
+.part6Elements .descriptionP6 h2 #descriptionP6_2 {
+  text-shadow: -1px 0 #00FFFF, 0 1px #00FFFF, 1px 0 #00FFFF, 0 -1px #00FFFF !important;
+}
+
+.part6Elements .descriptionP6 h2 #descriptionP6_3 {
+  text-shadow: -1px 0 #FF4F5E, 0 1px #FF4F5E, 1px 0 #FF4F5E, 0 -1px #FF4F5E !important;
+}
+
+.part6Elements .descriptionP6 h2 #descriptionP6_4 {
+  text-shadow: -1px 0 #54FFBD, 0 1px #54FFBD, 1px 0 #54FFBD, 0 -1px #54FFBD !important;
+}
+
+.part6Elements .descriptionP6 h2 #descriptionP6_5 {
+  text-shadow: -1px 0 #00FFFF, 0 1px #00FFFF, 1px 0 #00FFFF, 0 -1px #00FFFF !important;
+}
+
+.part6Elements .descriptionP6 p {
   font-size: 3.2vh;
   width: 275px;
   color: #FFFFFF;
   margin: 3px 0 25px 0;
-  font-weight: bold;
+  font-weight: lighter;
 }
 
-* .part6Elements .descriptionP6 .buttonP6_1 {
+.part6Elements .descriptionP6 .buttonP6 {
   padding: 10px 15px 10px 15px;
   border-radius: 5px;
   background-color: #000000;
-  border: 2px solid #FFF44F;
-  color: #FFF44F;
   text-decoration: none;
   outline: none;
   font-family: "Zilla Slab", serif;
 }
 
-* .part6Elements .descriptionP6 .buttonP6_1:hover {
+.part6Elements .descriptionP6 #buttonP6_1 {
+  border: 2px solid #FFF44F;
+  color: #FFF44F;
+}
+
+.part6Elements .descriptionP6 #buttonP6_1:hover {
   background-color: rgba(255, 244, 79, 0.1);
 }
 
-* .part6Elements .descriptionP6 .buttonP6_1:active {
+.part6Elements .descriptionP6 #buttonP6_1:active {
   background-color: rgba(255, 244, 79, 0.1);
 }
 
-* #imagecontainerP6_1 {
+.part6Elements .descriptionP6 #buttonP6_2 {
+  border: 2px solid #00FFFF;
+  color: #00FFFF;
+}
+
+.part6Elements .descriptionP6 #buttonP6_2:hover {
+  background-color: rgba(0, 255, 255, 0.1);
+}
+
+.part6Elements .descriptionP6 #buttonP6_2:active {
+  background-color: rgba(0, 255, 255, 0.1);
+}
+
+.part6Elements .descriptionP6 #buttonP6_3 {
+  border: 2px solid #FF4F5E;
+  color: #FF4F5E;
+}
+
+.part6Elements .descriptionP6 #buttonP6_3:hover {
+  background-color: rgba(255, 79, 94, 0.1);
+}
+
+.part6Elements .descriptionP6 #buttonP6_3:active {
+  background-color: rgba(255, 79, 94, 0.1);
+}
+
+.part6Elements .descriptionP6 #buttonP6_4 {
+  border: 2px solid #54FFBD;
+  color: #54FFBD;
+}
+
+.part6Elements .descriptionP6 #buttonP6_4:hover {
+  background-color: rgba(84, 255, 189, 0.1);
+}
+
+.part6Elements .descriptionP6 #buttonP6_4:active {
+  background-color: rgba(84, 255, 189, 0.1);
+}
+
+.part6Elements .descriptionP6 #buttonP6_5 {
+  border: 2px solid #00FFFF;
+  color: #00FFFF;
+}
+
+.part6Elements .descriptionP6 #buttonP6_5:hover {
+  background-color: rgba(0, 255, 255, 0.1);
+}
+
+.part6Elements .descriptionP6 #buttonP6_5:active {
+  background-color: rgba(0, 255, 255, 0.1);
+}
+
+#imagecontainerP6_1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -341,12 +441,12 @@
   margin: 0 60px 0 100px;
 }
 
-* #imagecontainerP6_1 span img {
+#imagecontainerP6_1 span img {
   height: 65%;
   width: 65%;
 }
 
-* #imagecontainerP6_2 {
+#imagecontainerP6_2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -361,26 +461,7 @@
   margin: 0 60px 0 100px;
 }
 
-* .buttonP6_2 {
-  padding: 10px 15px 10px 15px;
-  border-radius: 5px;
-  background-color: #000000;
-  border: 2px solid #00FFFF;
-  color: #00FFFF;
-  text-decoration: none;
-  outline: none;
-  font-family: "Zilla Slab", serif;
-}
-
-* .buttonP6_2:hover {
-  background-color: rgba(0, 255, 255, 0.1);
-}
-
-* .buttonP6_2:active {
-  background-color: rgba(0, 255, 255, 0.1);
-}
-
-* #imagecontainerP6_3 {
+#imagecontainerP6_3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -395,26 +476,7 @@
   margin: 0 60px 0 100px;
 }
 
-* .buttonP6_3 {
-  padding: 10px 15px 10px 15px;
-  border-radius: 5px;
-  background-color: #000000;
-  border: 2px solid #FF4F5E;
-  color: #FF4F5E;
-  text-decoration: none;
-  outline: none;
-  font-family: "Zilla Slab", serif;
-}
-
-* .buttonP6_3:hover {
-  background-color: rgba(255, 79, 94, 0.1);
-}
-
-* .buttonP6_3:active {
-  background-color: rgba(255, 79, 94, 0.1);
-}
-
-* #imagecontainerP6_4 {
+#imagecontainerP6_4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -429,26 +491,7 @@
   margin: 0 60px 0 100px;
 }
 
-* .buttonP6_4 {
-  padding: 10px 15px 10px 15px;
-  border-radius: 5px;
-  background-color: #000000;
-  border: 2px solid #54FFBD;
-  color: #54FFBD;
-  text-decoration: none;
-  outline: none;
-  font-family: "Zilla Slab", serif;
-}
-
-* .buttonP6_4:hover {
-  background-color: rgba(84, 255, 189, 0.1);
-}
-
-* .buttonP6_4:active {
-  background-color: rgba(84, 255, 189, 0.1);
-}
-
-* #imagecontainerP6_5 {
+#imagecontainerP6_5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -461,24 +504,5 @@
   height: 80%;
   border-radius: 10px;
   margin: 0 60px 0 100px;
-}
-
-* .buttonP6_5 {
-  padding: 10px 15px 10px 15px;
-  border-radius: 5px;
-  background-color: #000000;
-  border: 2px solid #FFFFFF;
-  color: #FFFFFF;
-  text-decoration: none;
-  outline: none;
-  font-family: "Zilla Slab", serif;
-}
-
-* .buttonP6_5:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-* .buttonP6_5:active {
-  background-color: rgba(255, 255, 255, 0.1);
 }
 /*# sourceMappingURL=main.css.map */

@@ -15,468 +15,474 @@ $height: 100vh;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
 
-    //Le design générales pour tous les textes et titres
-    h1,
-    h2,
-    p {
-        font-family: $main-fonts;
+//Le design générales pour tous les textes et titres
+h1,
+h2,
+p {
+    font-family: $main-fonts;
+    font-weight: lighter;
+}
 
-        font-weight: bold;
 
+//le design des boules de la navigation
+span {
+    background-color: color(two) !important;
+}
+
+
+//le design du texte des boules de la navigation
+#fp-nav ul li .fp-tooltip {
+    font-family: $main-fonts !important;
+    font-size: 3.5vh !important;
+    line-height: 4vh !important;
+    top: -6px !important;
+}
+
+
+//Le design générales des objets de l'ecran 1
+.part1 {
+    height: $height;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: no-repeat bottom url("../img/background.jpg");
+    background-size: cover;
+
+    #logoP1 {
+
+        //Le logo
+        h2 {
+            color: color(two);
+            font-family: $main-fonts;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 30px 0 0 60px;
+            font-weight: bold;
+            font-size: 4.4vh;
+        }
     }
 
-    //le design des boules de la navigation
-    span {
-        background-color: color(two)!important;
-    }
 
-    //le design du texte des boules de la navigation
-    #fp-nav ul li .fp-tooltip {
-        font-family: $main-fonts!important;
-        font-size: 3.5vh!important;
-        font-weight: bold;
-        line-height: 4vh!important;
-        top: -6px!important;
-    }
-
-    //Le design générales des objets de l'ecran 1
-    .part1 {
-        height: $height;
+    //le titre du site 
+    #titreP1 {
         display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
-        background: no-repeat bottom url("../img/background.jpg");
-        background-size: cover;
-
-        #logoP1 {
-
-            //Le logo
-            h2 {
-                color: color(two);
-                font-family: $main-fonts;
-                position: absolute;
-                top: 0;
-                left: 0;
-                margin: 30px 0 0 60px;
-                font-weight: bold;
-                font-size: 4.4vh;
-            }
-        }
-
-        //le titre du site 
-        #titreP1 {
-            display: flex;
-            flex-direction: column;
-            margin-top: -120px;
-            margin-bottom: 40px;
-            border-bottom: 3px solid color(three);
-            width: 348px;
-            text-align: center;
-
-            h1 {
-                color: color(one);
-                font-size: 8em;
-                text-shadow: -1px 0 color(two), 0 1px color(two), 1px 0 color(two), 0 -1px color(two);
-                font-weight: bold;
-            }
-
-
-            p {
-                font-family: $main-fonts;
-                color: color(two);
-                font-size: 4.4vh;
-                font-weight: bold;
-            }
-        }
-
-        //le texte animé
-        #textanimP1 {
-            h2 {
-                text-align: center;
-                font-size: 4.4vh;
-                font-family: $main-fonts;
-                color: color(two);
-                margin: 0!important;
-                font-weight: bold;
-
-                span {
-                    background-color: color(one)!important;
-                    font-weight: lighter!important;
-                    color: color(two);
-                }
-            }
-        }
-    }
-
-
-    //Le design générales des objets de l'ecran 2 ; ex: flexbox
-    .part2 {
-        height: 100vh;
-        background-color: color(one);
-        color: color(two);
-    }
-
-    //Le design générales des objets de l'ecran 3 ; ex: flexbox
-    .part3 {
-        height: 100vh;
-        background-color: color(one);
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        color: color(two);
-        font-size: 3.2vh;
-                
-
-        img {
-            width: 495px;
-            margin-right: 175px;
-        }
-
-        .p3 {
-            width: 55%;
-            margin-left: 60px;
-            padding-right: 255px;
-
-        }
-
-        h2 {
-            /*text-shadow: -1px 0 color(two), 0 1px color(two), 1px 0 color(two), 0 -1px color(two) !important;
-            color: color(one) !important;
-            background-color: color(one) !important;*/
-            font-weight: bolder;
-            text-transform: uppercase;
-            font-size: 5.9vh;
-        }
-
-        span {
-            text-shadow: -1px 0 color(two), 0 1px color(two), 1px 0 color(two), 0 -1px color(two) !important;
-            color: color(one) !important;
-            background-color: color(one) !important;
-            font-weight: bolder;
-            text-transform: uppercase;
-        }
-        
-    }
-
-    //Le design générales des objets de l'ecran 4 ; ex: flexbox
-    .part4 {
-        height: 100vh;
-        background-color: color(one);
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        color: color(two);
-
-        img {
-            width: 495px;
-            margin-right: 175px;
-        }
-
-        div {
-            width: 45%;
-            margin-left: 60px;
-            padding-right: 255px;
-        }
-
-        h2 {
-            /*text-shadow: -1px 0 color(two), 0 1px color(two), 1px 0 color(two), 0 -1px color(two) !important;
-            color: color(one) !important;
-            background-color: color(one) !important;*/
-            font-weight: bolder;
-            text-transform: uppercase;
-            font-size: 5.9vh;
-            line-height: 5.9vh;
-        }
-
-        span {
-            text-shadow: -1px 0 color(two), 0 1px color(two), 1px 0 color(two), 0 -1px color(two) !important;
-            color: color(one) !important;
-            background-color: color(one) !important;
-            font-weight: bolder;
-            text-transform: uppercase;
-        }
-
-        ul{
-            li{
-                list-style: none;
-                font-family: $main-fonts;
-                color: color(two);
-                font-size: 3.2vh;
-                font-weight: bold;
-
-            }
-        }
-    }
-
-    //Le design générales des objets de l'ecran 5 ; ex: flexbox
-    .part5 {
-        height: $height;
-        background-color: color(one);
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: row;
-        color: color(two);
+        margin-top: -120px;
+        margin-bottom: 40px;
+        border-bottom: 3px solid color(three);
+        width: 348px;
+        text-align: center;
 
         h1 {
-            /*margin-left: 60px;*/
-            font-size: 3em;
+            color: color(one);
+            font-size: 8em;
+            text-shadow: -1px 0 color(two), 0 1px color(two), 1px 0 color(two), 0 -1px color(two);
+            font-weight: bold;
+        }
+
+        p {
+            font-family: $main-fonts;
+            color: color(two);
+            font-size: 4.4vh;
+            font-weight: bold;
+        }
+    }
+
+    //le texte animé
+    #textanimP1 {
+        h2 {
+            text-align: center;
+            font-size: 4.4vh;
+            font-family: $main-fonts;
+            color: color(two);
+            margin: 0 !important;
+            font-weight: bold;
+
+            span {
+                background-color: color(one) !important;
+                font-weight: lighter !important;
+                color: color(two);
+            }
+        }
+    }
+}
+
+
+//Le design générales des objets de l'ecran 2 ; ex: flexbox
+.part2 {
+    height: 100vh;
+    background-color: color(one);
+    color: color(two);
+}
+
+
+//Le design générales des objets de l'ecran 3 ; ex: flexbox
+.part3 {
+    height: $height;
+    background-color: color(one);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+    .imagecontainerP3 {
+        margin-left: 60px;
+        height: 70%;
+        width: 50%;
+    }
+
+    .descriptionP3 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 0 15% 0 60px;
+        padding-right: 3%;
+
+        h2 {
+            font-size: 5.9vh;
             color: color(two);
             font-weight: bold;
             text-transform: uppercase;
+            line-height: 5.9vh;
+
+            span {
+                text-shadow: -1px 0 color(five), 0 1px color(five), 1px 0 color(five), 0 -1px color(five)!important;
+                color: color(one)!important;
+                background-color: color(one)!important;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
         }
 
-        /*.imagecontainerP5 {
-            height: 60%;
-            width: 50%;
-            background: url(../img/illustrationHighParties/3.jpg);
-            background-size: cover;
-        }*/
-        img {
-            width: 495px;
-            margin-right: 175px;
-        }
-        div {
-            width: 45%;
-            margin-left: 60px;
-            padding-right: 255px;
-        }
-
-        span {
-            text-shadow: -1px 0 color(two), 0 1px color(two), 1px 0 color(two), 0 -1px color(two)!important;
-            color: color(one)!important;
-            background-color: color(one)!important;
-            font-weight: bolder;
-            text-transform: uppercase;
-        }
-
-        p{
+        p {
             font-family: $main-fonts;
-                color: color(two);
-                font-size: 3.2vh;
-                font-weight: bold;
-        }
-    }
-
-    //Slides navigation design
-    .fp-slidesNav {
-        ul {
-            margin-left: 44%!important;
-        }
-    }
-
-    //Slides general design
-    .part6Elements {
-        background-color: color(one);
-        height: 100vh;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        font-family: $main-fonts;
-
-        .descriptionP6 {
-            margin-left: 60px;
-
-            //Title Slide design
-            h2 {
-                font-size: 5.9vh;
-                color: color(two);
-                font-weight: bolder;
-                line-height: 5.9vh;
-
-                //Product title design
-                span {
-                    text-shadow: -1px 0 color(two), 0 1px color(two), 1px 0 color(two), 0 -1px color(two)!important;
-                    color: color(one) !important;
-                    background-color: color(one)!important;
-                    font-weight: bolder;
-                    text-transform: uppercase;
-                }
-            }
-
-            //Description product design
-            p {
-                font-size: 3.2vh;
-                width: 275px;
-                color: color(two);
-                margin: 3px 0 25px 0;
-                font-weight: bold;
-            }
-
-            //Product button design
-            .buttonP6_1 {
-                padding: 10px 15px 10px 15px;
-                border-radius: 5px;
-                background-color: color(one);
-                border: 2px solid color(three);
-                color: color(three);
-                text-decoration: none;
-                outline: none;
-                font-family: $main-fonts;
-            }
-
-            .buttonP6_1:hover {
-                background-color: rgba(255, 244, 79, 0.1);
-            }
-
-            .buttonP6_1:active {
-                background-color: rgba(255, 244, 79, 0.1);
-            }
+            color: color(two);
+            font-size: 3.2vh;
+            font-weight: lighter;
         }
 
-
-    }
-
-    //Image container design slide 1
-    #imagecontainerP6_1 {
-        display: flex;
-        justify-content: flex-end;
-        background: no-repeat center url(../img/imagesSlides/VS.png);
-        background-size: cover;
-        width: 100%;
-        height: 80%;
-        border-radius: 10px;
-        margin: 0 60px 0 100px;
-
-
-        span {
-            img {
-                height: 65%;
-                width: 65%;
-            }
-        }
-    }
-
-    //Image container design slide 2
-    #imagecontainerP6_2 {
-        display: flex;
-        justify-content: flex-end;
-        background: no-repeat center url(../img/imagesSlides/HTMCSS.png);
-        background-size: cover;
-        width: 100%;
-        height: 80%;
-        border-radius: 10px;
-        margin: 0 60px 0 100px;
-    }
-
-    .buttonP6_2 {
-        padding: 10px 15px 10px 15px;
-        border-radius: 5px;
-        background-color: color(one);
-        border: 2px solid color(four);
-        color: color(four);
-        text-decoration: none;
-        outline: none;
-        font-family: $main-fonts;
-    }
-
-    .buttonP6_2:hover {
-        background-color: rgba(0, 255, 255, 0.1);
-    }
-
-    .buttonP6_2:active {
-        background-color: rgba(0, 255, 255, 0.1);
-    }
-
-
-
-    //Image container design slide 3
-    #imagecontainerP6_3 {
-        display: flex;
-        justify-content: flex-end;
-        background: no-repeat center url(../img/imagesSlides/JS.png);
-        background-size: cover;
-        width: 100%;
-        height: 80%;
-        border-radius: 10px;
-        margin: 0 60px 0 100px;
-
-    }
-
-    .buttonP6_3 {
-        padding: 10px 15px 10px 15px;
-        border-radius: 5px;
-        background-color: color(one);
-        border: 2px solid color(five);
-        color: color(five);
-        text-decoration: none;
-        outline: none;
-        font-family: $main-fonts;
-    }
-
-    .buttonP6_3:hover {
-        background-color: rgba(255, 79, 94, 0.1);
-    }
-
-    .buttonP6_3:active {
-        background-color: rgba(255, 79, 94, 0.1);
-    }
-
-    //Image container design slide 4
-    #imagecontainerP6_4 {
-        display: flex;
-        justify-content: flex-end;
-        background: no-repeat center url(../img/imagesSlides/Progra.png);
-        background-size: cover;
-        width: 100%;
-        height: 80%;
-        border-radius: 10px;
-        margin: 0 60px 0 100px;
-
-    }
-
-    .buttonP6_4 {
-        padding: 10px 15px 10px 15px;
-        border-radius: 5px;
-        background-color: color(one);
-        border: 2px solid color(six);
-        color: color(six);
-        text-decoration: none;
-        outline: none;
-        font-family: $main-fonts;
-    }
-
-    .buttonP6_4:hover {
-        background-color: rgba(84, 255, 189, 0.1);
-    }
-
-    .buttonP6_4:active {
-        background-color: rgba(84, 255, 189, 0.1);
-    }
-
-
-    //Image container design slide 5
-    #imagecontainerP6_5 {
-        display: flex;
-        justify-content: flex-end;
-        background: no-repeat center url(../img/imagesSlides/git.png);
-        background-size: cover;
-        width: 100%;
-        height: 80%;
-        border-radius: 10px;
-        margin: 0 60px 0 100px;
-
-    }
-
-
-    .buttonP6_5 {
-        padding: 10px 15px 10px 15px;
-        border-radius: 5px;
-        background-color: color(one);
-        border: 2px solid color(two);
-        color: color(two);
-        text-decoration: none;
-        outline: none;
-        font-family: $main-fonts;
-    }
-
-    .buttonP6_5:hover {
-        background-color: rgba(255, 255, 255, 0.1);
-    }
-
-    .buttonP6_5:active {
-        background-color: rgba(255, 255, 255, 0.1);
     }
 }
+
+//Le design générales des objets de l'ecran 4 ; ex: flexbox
+.part4 {
+    height: $height;
+    background-color: color(one);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+    .imagecontainerP4 {
+        margin-right: 15%;
+        height: 70%;
+        width: 40%;
+    }
+
+    .descriptionP4 {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: 0 60px 0 60px;
+
+        h2 {
+            font-size: 5.9vh;
+            color: color(two);
+            font-weight: bold;
+            text-transform: uppercase;
+            line-height: 5.9vh;
+
+            span {
+                text-shadow: -1px 0 color(six), 0 1px color(six), 1px 0 color(six), 0 -1px color(six) !important;
+                color: color(one) !important;
+                background-color: color(one) !important;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+        }
+
+        p {
+            font-family: $main-fonts;
+            color: color(two);
+            font-size: 3.2vh;
+            font-weight: lighter;
+
+            span {
+                color: color(two) !important;
+                background-color: color(one) !important;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+//Le design générales des objets de l'ecran 5 ; ex: flexbox
+.part5 {
+    height: $height;
+    background-color: color(one);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+    .imagecontainerP5 {
+        margin-left: 60px;
+        height: 70%;
+        width: 50%;
+    }
+
+    .descriptionP5 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 0 15% 0 60px;
+        padding-right: 3%;
+
+        h2 {
+            font-size: 5.9vh;
+            color: color(two);
+            font-weight: bold;
+            text-transform: uppercase;
+            line-height: 5.9vh;
+
+            span {
+                text-shadow: -1px 0 color(four), 0 1px color(four), 1px 0 color(four), 0 -1px color(four) !important;
+                color: color(one) !important;
+                background-color: color(one) !important;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+        }
+
+        p {
+            font-family: $main-fonts;
+            color: color(two);
+            font-size: 3.2vh;
+            font-weight: lighter;
+        }
+
+    }
+}
+
+
+//Slides navigation design
+.fp-slidesNav {
+    ul {
+        margin-left: 44% !important;
+    }
+}
+
+
+//Slides general design
+.part6Elements {
+    background-color: color(one);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: $main-fonts;
+
+    .descriptionP6 {
+        margin-left: 60px;
+
+        //Title Slide design
+        h2 {
+            font-size: 5.9vh;
+            color: color(two);
+            font-weight: bolder;
+            line-height: 5.9vh;
+
+            //Product title design
+            span {
+                text-shadow: -1px 0 color(three), 0 1px color(three), 1px 0 color(three), 0 -1px color(three) !important;
+                color: color(one) !important;
+                background-color: color(one) !important;
+                font-weight: bolder;
+                text-transform: uppercase;
+            }
+
+            #descriptionP6_2 {
+                text-shadow: -1px 0 color(four), 0 1px color(four), 1px 0 color(four), 0 -1px color(four) !important;
+            }
+
+            #descriptionP6_3 {
+                text-shadow: -1px 0 color(five), 0 1px color(five), 1px 0 color(five), 0 -1px color(five) !important;
+            }
+
+            #descriptionP6_4 {
+                text-shadow: -1px 0 color(six), 0 1px color(six), 1px 0 color(six), 0 -1px color(six) !important;
+            }
+
+            #descriptionP6_5 {
+                text-shadow: -1px 0 color(four), 0 1px color(four), 1px 0 color(four), 0 -1px color(four) !important;
+            }
+        }
+
+        //Description product design
+        p {
+            font-size: 3.2vh;
+            width: 275px;
+            color: color(two);
+            margin: 3px 0 25px 0;
+            font-weight: lighter;
+        }
+
+        //Product button design
+        .buttonP6 {
+            padding: 10px 15px 10px 15px;
+            border-radius: 5px;
+            background-color: color(one);
+            text-decoration: none;
+            outline: none;
+            font-family: $main-fonts;
+        }
+
+        #buttonP6_1 {
+            border: 2px solid color(three);
+            color: color(three);
+        }
+
+        #buttonP6_1:hover {
+            background-color: rgba(255, 244, 79, 0.1);
+        }
+
+        #buttonP6_1:active {
+            background-color: rgba(255, 244, 79, 0.1);
+        }
+
+        #buttonP6_2 {
+            border: 2px solid color(four);
+            color: color(four);
+        }
+        
+        
+        #buttonP6_2:hover {
+            background-color: rgba(0, 255, 255, 0.1);
+        }
+        
+        
+        #buttonP6_2:active {
+            background-color: rgba(0, 255, 255, 0.1);
+        }
+
+        #buttonP6_3 {
+            border: 2px solid color(five);
+            color: color(five);
+        }
+        
+        
+        #buttonP6_3:hover {
+            background-color: rgba(255, 79, 94, 0.1);
+        }
+        
+        
+        #buttonP6_3:active {
+            background-color: rgba(255, 79, 94, 0.1);
+        }
+        
+        #buttonP6_4 {
+            border: 2px solid color(six);
+            color: color(six);
+        }
+        
+        
+        #buttonP6_4:hover {
+            background-color: rgba(84, 255, 189, 0.1);
+        }
+        
+        
+        #buttonP6_4:active {
+            background-color: rgba(84, 255, 189, 0.1);
+        }
+
+        #buttonP6_5 {
+            border: 2px solid color(four);
+            color: color(four);
+        }
+        
+        
+        #buttonP6_5:hover {
+            background-color: rgba(0, 255, 255, 0.1);
+        }
+        
+        
+        #buttonP6_5:active {
+            background-color: rgba(0, 255, 255, 0.1);
+        }
+    }
+}
+
+
+//Image container design slide 1
+#imagecontainerP6_1 {
+    display: flex;
+    justify-content: flex-end;
+    background: no-repeat center url(../img/imagesSlides/VS.png);
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    margin: 0 60px 0 100px;
+
+    span {
+        img {
+            height: 65%;
+            width: 65%;
+        }
+    }
+}
+
+//Image container design slide 2
+#imagecontainerP6_2 {
+    display: flex;
+    justify-content: flex-end;
+    background: no-repeat center url(../img/imagesSlides/HTMCSS.png);
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    margin: 0 60px 0 100px;
+}
+
+//Image container design slide 3
+#imagecontainerP6_3 {
+    display: flex;
+    justify-content: flex-end;
+    background: no-repeat center url(../img/imagesSlides/JS.png);
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    margin: 0 60px 0 100px;
+}
+
+//Image container design slide 4
+#imagecontainerP6_4 {
+    display: flex;
+    justify-content: flex-end;
+    background: no-repeat center url(../img/imagesSlides/Progra.png);
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    margin: 0 60px 0 100px;
+}
+
+
+//Image container design slide 5
+#imagecontainerP6_5 {
+    display: flex;
+    justify-content: flex-end;
+    background: no-repeat center url(../img/imagesSlides/git.png);
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    margin: 0 60px 0 100px;
+}
+
