@@ -6,9 +6,10 @@
 }
 
 * h1,
-* h2, * p {
+* h2,
+* p {
   font-family: "Zilla Slab", serif;
-  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 * span {
@@ -76,7 +77,7 @@
 * .part1 #titreP1 p {
   font-family: "Zilla Slab", serif;
   color: #FFFFFF;
-  font-size: 2em;
+  font-size: 3.2vh;
   font-weight: bold;
 }
 
@@ -95,56 +96,104 @@
 
 * .part2 {
   height: 100vh;
-  background-color: red;
+  background-color: #000000;
+  color: #FFFFFF;
 }
 
 * .part3 {
   height: 100vh;
-  background-color: pink;
+  background-color: #000000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #FFFFFF;
+  font-size: 3.2vh;
 }
 
 * .part3 img {
   width: 495px;
+  margin-right: 175px;
 }
 
-* .part3 div {
-  width: 45%;
-  text-align: right;
+* .part3 .p3 {
+  width: 55%;
+  margin-left: 60px;
+  padding-right: 255px;
+}
+
+* .part3 h2 {
+  /*text-shadow: -1px 0 color(two), 0 1px color(two), 1px 0 color(two), 0 -1px color(two) !important;
+            color: color(one) !important;
+            background-color: color(one) !important;*/
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 5.9vh;
+}
+
+* .part3 span {
+  text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF !important;
+  color: #000000 !important;
+  background-color: #000000 !important;
+  font-weight: bolder;
+  text-transform: uppercase;
 }
 
 * .part4 {
   height: 100vh;
-  background-color: #FFFFFF;
+  background-color: #000000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #FFFFFF;
 }
 
 * .part4 img {
   width: 495px;
+  margin-right: 175px;
 }
 
 * .part4 div {
   width: 45%;
+  margin-left: 60px;
+  padding-right: 255px;
+}
+
+* .part4 h2 {
+  /*text-shadow: -1px 0 color(two), 0 1px color(two), 1px 0 color(two), 0 -1px color(two) !important;
+            color: color(one) !important;
+            background-color: color(one) !important;*/
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 5.9vh;
+  line-height: 5.9vh;
+}
+
+* .part4 span {
+  text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF !important;
+  color: #000000 !important;
+  background-color: #000000 !important;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+* .part4 ul li {
+  list-style: none;
+  font-family: "Zilla Slab", serif;
+  color: #FFFFFF;
+  font-size: 3.2vh;
+  font-weight: bold;
 }
 
 * .part5 {
@@ -156,27 +205,39 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  color: #FFFFFF;
+  /*.imagecontainerP5 {
+            height: 60%;
+            width: 50%;
+            background: url(../img/illustrationHighParties/3.jpg);
+            background-size: cover;
+        }*/
 }
 
 * .part5 h1 {
-  margin-left: 60px;
+  /*margin-left: 60px;*/
   font-size: 3em;
   color: #FFFFFF;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-* .part5 .imagecontainerP5 {
-  height: 60%;
-  width: 50%;
-  background: url(../img/illustrationHighParties/3.jpg);
-  background-size: cover;
+* .part5 img {
+  width: 495px;
+  margin-right: 175px;
+}
+
+* .part5 div {
+  width: 45%;
+  margin-left: 60px;
+  padding-right: 255px;
 }
 
 * .part5 span {
@@ -185,6 +246,13 @@
   background-color: #000000 !important;
   font-weight: bolder;
   text-transform: uppercase;
+}
+
+* .part5 p {
+  font-family: "Zilla Slab", serif;
+  color: #FFFFFF;
+  font-size: 3.2vh;
+  font-weight: bold;
 }
 
 * .fp-controlArrow {

@@ -18,10 +18,12 @@ $height: 100vh;
 
     //Le design générales pour tous les textes et titres
     h1,
-    h2, p {
+    h2,
+    p {
         font-family: $main-fonts;
-        font-size: 1.3rem;
+        font-weight: bold;
     }
+
     //le design des boules de la navigation
     span {
         background-color: color(two) !important;
@@ -76,10 +78,11 @@ $height: 100vh;
                 font-weight: bold;
             }
 
+
             p {
                 font-family: $main-fonts;
                 color: color(two);
-                font-size: 2em;
+                font-size: 3.2vh;
                 font-weight: bold;
             }
         }
@@ -105,43 +108,99 @@ $height: 100vh;
     //Le design générales des objets de l'ecran 2 ; ex: flexbox
     .part2 {
         height: 100vh;
-        background-color: red;
+        background-color: color(one);
+        color: color(two);
     }
 
     //Le design générales des objets de l'ecran 3 ; ex: flexbox
     .part3 {
         height: 100vh;
-        background-color: pink;
+        background-color: color(one);
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
+        color: color(two);
+        font-size: 3.2vh;
+                
 
         img {
             width: 495px;
+            margin-right: 175px;
         }
 
-        div {
-            width: 45%;
-            text-align: right;
+        .p3 {
+            width: 55%;
+            margin-left: 60px;
+            padding-right: 255px;
 
         }
+
+        h2 {
+            /*text-shadow: -1px 0 color(two), 0 1px color(two), 1px 0 color(two), 0 -1px color(two) !important;
+            color: color(one) !important;
+            background-color: color(one) !important;*/
+            font-weight: bolder;
+            text-transform: uppercase;
+            font-size: 5.9vh;
+        }
+
+        span {
+            text-shadow: -1px 0 color(two), 0 1px color(two), 1px 0 color(two), 0 -1px color(two) !important;
+            color: color(one) !important;
+            background-color: color(one) !important;
+            font-weight: bolder;
+            text-transform: uppercase;
+        }
+        
     }
 
     //Le design générales des objets de l'ecran 4 ; ex: flexbox
     .part4 {
         height: 100vh;
-        background-color: color(two);
+        background-color: color(one);
         display: flex;
-        flex-direction: row-reverse;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
+        color: color(two);
 
         img {
             width: 495px;
+            margin-right: 175px;
         }
 
         div {
             width: 45%;
+            margin-left: 60px;
+            padding-right: 255px;
+        }
+
+        h2 {
+            /*text-shadow: -1px 0 color(two), 0 1px color(two), 1px 0 color(two), 0 -1px color(two) !important;
+            color: color(one) !important;
+            background-color: color(one) !important;*/
+            font-weight: bolder;
+            text-transform: uppercase;
+            font-size: 5.9vh;
+            line-height: 5.9vh;
+        }
+
+        span {
+            text-shadow: -1px 0 color(two), 0 1px color(two), 1px 0 color(two), 0 -1px color(two) !important;
+            color: color(one) !important;
+            background-color: color(one) !important;
+            font-weight: bolder;
+            text-transform: uppercase;
+        }
+
+        ul{
+            li{
+                list-style: none;
+                font-family: $main-fonts;
+                color: color(two);
+                font-size: 3.2vh;
+                font-weight: bold;
+
+            }
         }
     }
 
@@ -151,22 +210,32 @@ $height: 100vh;
         background-color: color(one);
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-direction: row;
+        color: color(two);
 
         h1 {
-            margin-left: 60px;
+            /*margin-left: 60px;*/
             font-size: 3em;
             color: color(two);
             font-weight: bold;
             text-transform: uppercase;
         }
 
-        .imagecontainerP5 {
+        /*.imagecontainerP5 {
             height: 60%;
             width: 50%;
             background: url(../img/illustrationHighParties/3.jpg);
             background-size: cover;
+        }*/
+        img {
+            width: 495px;
+            margin-right: 175px;
+        }
+        div {
+            width: 45%;
+            margin-left: 60px;
+            padding-right: 255px;
         }
 
         span {
@@ -175,6 +244,13 @@ $height: 100vh;
             background-color: color(one) !important;
             font-weight: bolder;
             text-transform: uppercase;
+        }
+
+        p{
+            font-family: $main-fonts;
+                color: color(two);
+                font-size: 3.2vh;
+                font-weight: bold;
         }
     }
 
