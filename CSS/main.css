@@ -6,9 +6,10 @@
 }
 
 * h1,
-* h2, * p {
+* h2,
+* p {
   font-family: "Zilla Slab", serif;
-  font-size: 1.3rem;
+  font-size: 3.2vh;
 }
 
 * span {
@@ -17,9 +18,10 @@
 
 * #fp-nav ul li .fp-tooltip {
   font-family: "Zilla Slab", serif !important;
-  font-size: 20px !important;
+  font-size: 3.5vh !important;
+  font-weight: bold;
+  line-height: 4vh !important;
   top: -6px !important;
-  font-weight: lighter;
 }
 
 * .part1 {
@@ -37,7 +39,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: no-repeat bottom url("../img/backgroundPage1.1.jpg");
+  background: no-repeat bottom url("../img/background.jpg");
   background-size: cover;
 }
 
@@ -47,8 +49,9 @@
   position: absolute;
   top: 0;
   left: 0;
-  margin: 15px 0 0 30px;
+  margin: 30px 0 0 60px;
   font-weight: bold;
+  font-size: 4.4vh;
 }
 
 * .part1 #titreP1 {
@@ -76,21 +79,23 @@
 * .part1 #titreP1 p {
   font-family: "Zilla Slab", serif;
   color: #FFFFFF;
-  font-size: 2em;
+  font-size: 4.4vh;
   font-weight: bold;
 }
 
 * .part1 #textanimP1 h2 {
   text-align: center;
-  font-size: 2em;
+  font-size: 4.4vh;
   font-family: "Zilla Slab", serif;
   color: #FFFFFF;
   margin: 0 !important;
+  font-weight: bold;
 }
 
 * .part1 #textanimP1 h2 span {
   background-color: #000000 !important;
   font-weight: lighter !important;
+  color: #FFFFFF;
 }
 
 * .part2 {
@@ -187,8 +192,8 @@
   text-transform: uppercase;
 }
 
-* .fp-controlArrow {
-  background-color: black;
+* .fp-slidesNav ul {
+  margin-left: 44% !important;
 }
 
 * .part6Elements {
@@ -211,13 +216,14 @@
   margin-left: 60px;
 }
 
-* .part6Elements .descriptionP6 h1 {
-  font-size: 2.5em;
+* .part6Elements .descriptionP6 h2 {
+  font-size: 5.9vh;
   color: #FFFFFF;
   font-weight: bolder;
+  line-height: 5.9vh;
 }
 
-* .part6Elements .descriptionP6 h1 span {
+* .part6Elements .descriptionP6 h2 span {
   text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF !important;
   color: #000000 !important;
   background-color: #000000 !important;
@@ -226,33 +232,30 @@
 }
 
 * .part6Elements .descriptionP6 p {
-  font-size: 1.2em;
+  font-size: 3.2vh;
   width: 275px;
   color: #FFFFFF;
+  margin: 3px 0 25px 0;
+  font-weight: bold;
 }
 
-* .part6Elements .descriptionP6 .outlined {
-  margin-top: 15px;
+* .part6Elements .descriptionP6 .buttonP6_1 {
   padding: 10px 15px 10px 15px;
   border-radius: 5px;
   background-color: #000000;
   border: 2px solid #FFF44F;
   color: #FFF44F;
-  font-weight: bold;
+  text-decoration: none;
   outline: none;
   font-family: "Zilla Slab", serif;
 }
 
-* .part6Elements .descriptionP6 .outlined:hover {
-  background-color: rgba(66, 135, 245, 0.1);
+* .part6Elements .descriptionP6 .buttonP6_1:hover {
+  background-color: rgba(255, 244, 79, 0.1);
 }
 
-* .part6Elements .descriptionP6 .outlined:focus {
-  background-color: rgba(66, 135, 245, 0.2);
-}
-
-* .part6Elements .descriptionP6 .outlined:active {
-  background-color: rgba(66, 135, 245, 0.3);
+* .part6Elements .descriptionP6 .buttonP6_1:active {
+  background-color: rgba(255, 244, 79, 0.1);
 }
 
 * #imagecontainerP6_1 {
@@ -262,7 +265,7 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background: no-repeat left url(../img/imagesSlides/VS.jpg);
+  background: no-repeat center url(../img/imagesSlides/VS.png);
   background-size: cover;
   width: 100%;
   height: 80%;
@@ -282,12 +285,31 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background: no-repeat center url(../img/imagesSlides/HTMLCSS.jpg);
+  background: no-repeat center url(../img/imagesSlides/HTMCSS.png);
   background-size: cover;
   width: 100%;
   height: 80%;
   border-radius: 10px;
   margin: 0 60px 0 100px;
+}
+
+* .buttonP6_2 {
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  background-color: #000000;
+  border: 2px solid #00FFFF;
+  color: #00FFFF;
+  text-decoration: none;
+  outline: none;
+  font-family: "Zilla Slab", serif;
+}
+
+* .buttonP6_2:hover {
+  background-color: rgba(0, 255, 255, 0.1);
+}
+
+* .buttonP6_2:active {
+  background-color: rgba(0, 255, 255, 0.1);
 }
 
 * #imagecontainerP6_3 {
@@ -297,12 +319,31 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background: no-repeat center url(../img/imagesSlides/JS.jpg);
+  background: no-repeat center url(../img/imagesSlides/JS.png);
   background-size: cover;
   width: 100%;
   height: 80%;
   border-radius: 10px;
   margin: 0 60px 0 100px;
+}
+
+* .buttonP6_3 {
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  background-color: #000000;
+  border: 2px solid #FF4F5E;
+  color: #FF4F5E;
+  text-decoration: none;
+  outline: none;
+  font-family: "Zilla Slab", serif;
+}
+
+* .buttonP6_3:hover {
+  background-color: rgba(255, 79, 94, 0.1);
+}
+
+* .buttonP6_3:active {
+  background-color: rgba(255, 79, 94, 0.1);
 }
 
 * #imagecontainerP6_4 {
@@ -312,12 +353,31 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background: no-repeat center url(../img/imagesSlides/Progra.jpg);
+  background: no-repeat center url(../img/imagesSlides/Progra.png);
   background-size: cover;
   width: 100%;
   height: 80%;
   border-radius: 10px;
   margin: 0 60px 0 100px;
+}
+
+* .buttonP6_4 {
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  background-color: #000000;
+  border: 2px solid #54FFBD;
+  color: #54FFBD;
+  text-decoration: none;
+  outline: none;
+  font-family: "Zilla Slab", serif;
+}
+
+* .buttonP6_4:hover {
+  background-color: rgba(84, 255, 189, 0.1);
+}
+
+* .buttonP6_4:active {
+  background-color: rgba(84, 255, 189, 0.1);
 }
 
 * #imagecontainerP6_5 {
@@ -327,11 +387,30 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background: no-repeat center url(../img/imagesSlides/git.jpg);
+  background: no-repeat center url(../img/imagesSlides/git.png);
   background-size: cover;
   width: 100%;
   height: 80%;
   border-radius: 10px;
   margin: 0 60px 0 100px;
+}
+
+* .buttonP6_5 {
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  background-color: #000000;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  text-decoration: none;
+  outline: none;
+  font-family: "Zilla Slab", serif;
+}
+
+* .buttonP6_5:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+* .buttonP6_5:active {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 /*# sourceMappingURL=main.css.map */
