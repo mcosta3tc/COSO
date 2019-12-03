@@ -40,6 +40,7 @@ span {
           flex-direction: column;
   background: no-repeat bottom url("../img/background.jpg");
   background-size: cover;
+  background-color: #FFF44F;
 }
 
 .part1 #logoP1 h2 {
