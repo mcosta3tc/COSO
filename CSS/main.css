@@ -506,7 +506,7 @@ span {
   margin: 0 60px 0 100px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
   #fp-nav {
     display: none;
   }
@@ -526,9 +526,7 @@ span {
             align-items: center;
   }
   .part3 .imagecontainerP3 {
-    height: 45%;
-    width: 100%;
-    margin-left: 0;
+    display: none;
   }
   .part3 .descriptionP3 {
     margin: 10% 0 10% 0;
@@ -569,14 +567,24 @@ span {
     padding-left: 15px;
   }
   .part5 .imagecontainerP5 {
-    height: 45%;
-    width: 100%;
-    margin-left: 0;
-    padding-right: 15px;
+    display: none;
   }
   .part5 .descriptionP5 {
     margin: 10% 0 10% 0;
     width: 100%;
+  }
+  .part6Elements {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    margin: auto;
+  }
+  .part6Elements .descriptionP6 {
+    margin: 0;
+  }
+  #imagecontainerP6_1 {
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */
