@@ -11,28 +11,25 @@
     <link rel="stylesheet" href="CSS/main.css">
 
     <!-- FullPageJs CSS -->
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.css"
         integrity="sha256-3IkGqGYOvq1Ype2MXFwVJFeBtBACgiveho3SacOEEP8=" crossorigin="anonymous" />
 </head>
 
 <body>
 
+
     <!-- Parent div of FullPajeJS -->
     <div id="fullPage">
-
 
         <!-- The div of the section for FullPageJS -->
         <div class="section">
 
             <!-- Div where we can work with in the CSS -->
             <div class="part1">
-
                 <!-- Logo -->
                 <div id="logoP1">
                     <h2>moz://a</h2>
                 </div>
-
                 <!-- Title and description -->
                 <div id="titreP1">
                     <h1>
@@ -40,16 +37,13 @@
                     </h1>
                     <p>Découvrez le meilleur du Code Source Ouvert !</p>
                 </div>
-
                 <!-- Animated text -->
                 <div id="textanimP1">
                     <h2>Hello: <span id="typed5"></span></h2>
                 </div>
-
             </div>
 
         </div>
-
 
         <!-- Screen 2 -->
         <div class="section">
@@ -61,54 +55,42 @@
 
         </div>
 
-
         <!-- Scren 3 -->
         <div class="section">
 
             <!-- Div where we can work with in the CSS -->
             <div class="part3">
-
-                <div class="p3">
-                    <h2>Description  <br><span>de l'Open Source</span></h2>
+                <img src="img/illustrationHighParties/1.jpg" class="imagecontainerP3" alt="">
+                <div class="descriptionP3">
+                    <h2>Description de<br><span>l'Open Source</span></h2>
                     <p>Un logiciel open source est un programme informatique dont le code source est à la disposition du
-                        grand public. <br> Il est développé par une communauté de programmeurs informatiques qui améliore le
+                        grand public. <br> Il est développé par une communauté de programmeurs informatiques qui
+                        améliore le
                         logiciel, corrige les bugs et les failles de sécurité.</p>
                 </div>
-                <img src="img/illustrationHighParties/1.jpg" alt="">
             </div>
 
         </div>
 
         <!-- Screen 4 -->
-      
         <div class="section">
 
             <!-- Div where we can work with in the CSS -->
             <div class="part4">
-
-                <div>
-
-                    <h2>Et qu’est-ce qu’on y <br> <span>gagne ?</span></h2>
-                    <ul>
-                        <li>Prix: Code gratuit</li>
-                        <li>Communauté: les entreprises peuvent
+                <div class="descriptionP4">
+                    <h2>ses<br><span>avantages</span></h2>
+                    <p><span>Prix:</span> Les developpeurs mettent à disposition le code source de leur projet
+                        gratuitement.<br><br>
+                        <span>Communauté:</span> Les entreprises peuvent
                         prendre leur indépendance par rapport à
-                        leurs éditeurs.</li>
-                        <li>Adapter le logiciel au plus-près des besoins de l'entreprise</li>
-                        <li>Sécurité: Analysés par des d’experts du
-                        monde entier qui sont très
-
-                        réactifs. La moindre faille est rapidement
-                        détectée et corrigée. Il
-
+                        leurs éditeurs. Adapter le logiciel au plus-près des besoins de l'entreprise<br><br>
+                        <span>Sécurité:</span> Analysés par des d’experts du
+                        monde entier qui sont très réactifs. La moindre faille est rapidement détectée et corrigée. Il
                         arrive que la communauté Open Source soit
-                        plus rapide qu’un fournisseur
-
-                        commercial classique pour répondre à une
-                        menace.</li>
-                    </ul>
+                        plus rapide qu’un fournisseur commercial classique pour répondre à une
+                        menace.</p>
                 </div>
-                <img src="img/illustrationHighParties/2.jpg" alt="">
+                <img src="img/illustrationHighParties/2.jpg" class="imagecontainerP4" alt="">
             </div>
 
         </div>
@@ -118,15 +100,13 @@
 
             <!-- Div where we can work with in the CSS -->
             <div class="part5">
-                <div>
-                    <h1>Je veux !<br><span>je veux !</span></h1>
-
+                <img src="img/illustrationHighParties/3.jpg" class="imagecontainerP5" alt="">
+                <div class="descriptionP5">
+                    <h2>Je veux !<br><span>je veux !</span></h2>
                     <p>Vous souhaitez contribuer afin de participer à des projets, utiliser un outil comme git et
                         collaborer
                         sur des projets en ligne avec github ? Votre départ commence par ici.</p>
-
                 </div>
-                <img src="img/illustrationHighParties/02.jpg" alt="">
             </div>
 
         </div>
@@ -136,44 +116,35 @@
 
             <!-- Div where we can work with in the CSS -->
             <div class="part6" id="part6">
-
                 <div class="slide">
-
                     <div class="part6Elements">
-
                         <div class="descriptionP6">
                             <h2>Pour commencer<br><span>Visual Studio Code</span></h2>
                             <p>Il te faut un éditeur de texte nous te proposons Visual Studio Code.<br>C'est un
                                 editeur
                                 Open Source performant et très modulable grâce à son store d'extentions</p>
-                            <a class="buttonP6_1" href="https://code.visualstudio.com/"
+                            <a class="buttonP6" id="buttonP6_1" href="https://code.visualstudio.com/"
                                 target="https://code.visualstudio.com/">En savoir plus !</a>
                         </div>
-
-
                         <div id="imagecontainerP6_1">
                             <span></span>
                         </div>
-
                     </div>
-
                 </div>
 
                 <div class="slide">
 
                     <div class="part6Elements">
                         <div class="descriptionP6">
-                            <h2>Ensuite<br><span>html et css</span></h2>
+                            <h2>Ensuite<br><span id="descriptionP6_2">html et css</span></h2>
                             <p>Nous te conseillons d'apprendre l'HTML et CSS pour débuter.<br> Ce sont les languages
                                 utilisés pour structurer des sites web et les styliser</p>
-                            <a class="buttonP6_2"
+                            <a class="buttonP6" id="buttonP6_2"
                                 href="https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3"
                                 target="https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3">En
                                 savoir plus !</a>
                         </div>
-
                         <div id="imagecontainerP6_2">
-
                         </div>
                     </div>
 
@@ -183,35 +154,30 @@
 
                     <div class="part6Elements">
                         <div class="descriptionP6">
-                            <h2>Mais encore<br><span>javascript</span></h2>
+                            <h2>Mais encore<br><span id="descriptionP6_3">javascript</span></h2>
                             <p>Une fois tes bases établient pourquoi ne pas les appronfondir avec du JavaScript.<br>
                                 C'est un langage de programmation, il rendera tes pages dynamiques et bien plus encore !
                             </p>
-                            <a class="buttonP6_3" href="https://apprendre-html.3wa.fr/javascript"
+                            <a class="buttonP6" id="buttonP6_3" href="https://apprendre-html.3wa.fr/javascript"
                                 target="https://apprendre-html.3wa.fr/javascript">En savoir plus !</a>
                         </div>
-
-
                         <div id="imagecontainerP6_3">
                         </div>
                     </div>
 
-
                 </div>
 
                 <div class="slide">
                     <div class="part6Elements">
                         <div class="descriptionP6">
-                            <h2>C'est tout ?<br><span>non</span></h2>
+                            <h2>C'est tout ?<br><span id="descriptionP6_4">non</span></h2>
                             <p>Il te restes encore beaucoup d'autres langages à apprendre <br>Tu as une idée tête ? <br>
                                 Il existe une multitude de façon de la réaliser !</p>
-                            <a class="buttonP6_4"
+                            <a class="buttonP6" id="buttonP6_4"
                                 href="https://fr.wikipedia.org/wiki/Liste_de_langages_de_programmation"
                                 target="https://fr.wikipedia.org/wiki/Liste_de_langages_de_programmation">En savoir plus
                                 !</a>
                         </div>
-
-
                         <div id="imagecontainerP6_4">
                         </div>
                     </div>
@@ -222,23 +188,20 @@
 
                     <div class="part6Elements">
                         <div class="descriptionP6">
-                            <h2>Une dernière chose !<br><span>Github</span></h2>
+                            <h2>Une dernière chose !<br><span id="descriptionP6_5">Github</span></h2>
                             <p>Il ne te restes plus qu'à publier tes projet en Open Source pour nous rejoindre !<br>Nous
                                 te conseillons Github une platforme gratuite pour publier tes projets.<br>
                                 Il ne te reste plus qu'à te lancer !</p>
-                            <a class="buttonP6_5" href="https://github.com/" target="https://github.com/">En savoir plus
+                            <a class="buttonP6" id="buttonP6_5" href="https://github.com/" target="https://github.com/">En savoir plus
                                 !</a>
                         </div>
-
-
                         <div id="imagecontainerP6_5">
                         </div>
-
                     </div>
 
                 </div>
-            </div>
 
+            </div>
 
         </div>
 
@@ -252,6 +215,7 @@
             integrity="sha256-+izcH23qgte+aiGZRxk63BxGUyoQrAQZVoH2zKU9usM=" crossorigin="anonymous"></script>
 
         <!--  Documentation complete https://github.com/alvarotrigo/fullPage.js/#fullpagejs -->
+
         <script>
             new fullpage('#fullPage', {
                 //pour donner l'effet de bloc par bloc au scroll
@@ -296,6 +260,8 @@
                 loop: true
             });
         </script>
+
+
 </body>
 
 </html>
