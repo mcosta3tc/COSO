@@ -40,7 +40,6 @@ span {
           flex-direction: column;
   background: no-repeat bottom url("../img/background.jpg");
   background-size: cover;
-  background-color: #FFF44F;
 }
 
 .part1 #logoP1 h2 {
@@ -505,5 +504,79 @@ span {
   height: 80%;
   border-radius: 10px;
   margin: 0 60px 0 100px;
+}
+
+@media (max-width: 1100px) {
+  #fp-nav {
+    display: none;
+  }
+  .part1 #logoP1 h2 {
+    margin: 7.5px 0 0 15px;
+  }
+  .part3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .part3 .imagecontainerP3 {
+    height: 45%;
+    width: 100%;
+    margin-left: 0;
+  }
+  .part3 .descriptionP3 {
+    margin: 10% 0 10% 0;
+    padding-left: 15px;
+    width: 100%;
+  }
+  .part4 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .part4 .imagecontainerP4 {
+    display: none;
+  }
+  .part4 .descriptionP4 {
+    margin: 0;
+    padding: 0 15px 0 15px;
+    width: 100%;
+  }
+  .part5 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 15px;
+  }
+  .part5 .imagecontainerP5 {
+    height: 45%;
+    width: 100%;
+    margin-left: 0;
+    padding-right: 15px;
+  }
+  .part5 .descriptionP5 {
+    margin: 10% 0 10% 0;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
