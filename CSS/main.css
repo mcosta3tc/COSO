@@ -12,6 +12,10 @@ p {
   font-weight: lighter;
 }
 
+body {
+  background: #000000;
+}
+
 span {
   background-color: #FFFFFF !important;
 }
@@ -572,19 +576,6 @@ span {
   .part5 .descriptionP5 {
     margin: 10% 0 10% 0;
     width: 100%;
-  }
-  .part6Elements {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 100%;
-    margin: auto;
-  }
-  .part6Elements .descriptionP6 {
-    margin: 0;
-  }
-  #imagecontainerP6_1 {
-    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */

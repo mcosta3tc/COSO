@@ -26,6 +26,9 @@ p {
     font-weight: lighter;
 }
 
+body {
+    background: color(one);
+}
 
 //le design des boules de la navigation
 span {
@@ -546,20 +549,6 @@ span {
             margin: 10% 0 10% 0;
             width: 100%;
         }
-    }
-
-    .part6Elements {
-        justify-content: center;
-        width: 100%;
-        margin: auto;
-
-        .descriptionP6 {
-            margin: 0;
-        }
-    }
-
-    #imagecontainerP6_1 {
-        display: none;
     }
 
 }
