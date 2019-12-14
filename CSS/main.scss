@@ -2,6 +2,7 @@ $main-fonts: 'Zilla Slab',
 serif; //font-family: $main-fonts;
 $colors: (one: #000000, two: #FFFFFF, three: #FFF44F, four: #00FFFF, five: #FF4F5E, six: #54FFBD, seven: #6E008B, eight:#00458B);
 $height: 100vh;
+$padding-responsive: 15px;
 
 //La fonction pour appeler la varaiable des couleurs
 @function color($color-name) {
@@ -25,6 +26,9 @@ p {
     font-weight: lighter;
 }
 
+body {
+    background: color(one);
+}
 
 //le design des boules de la navigation
 span {
@@ -51,7 +55,6 @@ span {
     flex-direction: column;
     background: no-repeat bottom url("../img/background.jpg");
     background-size: cover;
-    background-color: color(three);
 
     #logoP1 {
 
@@ -487,4 +490,67 @@ span {
     height: 80%;
     border-radius: 10px;
     margin: 0 60px 0 100px;
+}
+
+@media (max-width: 1000px) {
+    #fp-nav {
+        display: none;
+    }
+
+    .part1 {
+        #logoP1 {
+            h2 {
+                margin: 7.5px 0 0 15px;
+            }
+        }
+    }
+
+    .part3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .imagecontainerP3 {
+            display: none;
+        }
+
+        .descriptionP3 {
+            margin: 10% 0 10% 0;
+            padding-left: $padding-responsive;
+            width: 100%;
+        }
+    }
+
+    .part4 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .imagecontainerP4 {
+            display: none;
+        }
+
+        .descriptionP4 {
+            margin: 0;
+            padding: 0 15px 0 15px;
+            width: 100%;
+        }
+    }
+
+    .part5 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: $padding-responsive;
+
+        .imagecontainerP5 {
+            display: none;
+        }
+
+        .descriptionP5 {
+            margin: 10% 0 10% 0;
+            width: 100%;
+        }
+    }
+
 }
