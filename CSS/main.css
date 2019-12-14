@@ -105,45 +105,85 @@ span {
   height: 100vh;
   background-color: #000000;
   color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-  
-/*debut de la partie top 10*/
-.cards {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /*debut de la partie top 10*/
+  /*fin de la partie top 10*/
 }
-.cards .card {
+
+.part2 h2 {
+  font-size: 5.9vh;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 5.9vh;
+}
+
+.part2 .cards {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.part2 .cards .card {
   height: 440px;
   background: #fff;
   border-radius: 4px;
-  box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 0.1);
   max-width: 30px;
   min-width: 260px;
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   margin: 0 10px;
 }
-.cards .card:before {
+
+.part2 .cards .card:before {
   height: 190px;
   width: calc(100% + 100px);
   content: "";
   position: absolute;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#4481eb), to(#04befe));
   background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
   border-radius: 4px 4px 100% 100%;
+  -webkit-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
   top: 0;
 }
-.cards .card .close {
+
+.part2 .cards .card .close {
   width: 18px;
   height: 18px;
   position: absolute;
@@ -157,29 +197,36 @@ span {
   right: 0;
   margin: 10px;
   padding: 5px;
+  -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
-  background-color: transparent!important;
+  background-color: transparent !important;
 }
 
-span.close{
-  
-}
-
-.cards .card .close:hover {
+.part2 .cards .card .close:hover {
   background-size: 100%;
   opacity: 0.8;
 }
-.cards .card .arrow {
+
+.part2 .cards .card .arrow {
   display: none;
 }
-.cards .card article {
+
+.part2 .cards .card article {
   z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
 }
-.cards .card article h2 {
+
+.part2 .cards .card article h2 {
   color: white;
   margin: 0;
   padding: 40px 20px 10px 20px;
@@ -187,90 +234,132 @@ span.close{
   font-size: 24px;
   letter-spacing: 0.5px;
 }
-.cards .card article .title {
+
+.part2 .cards .card article .title {
   color: white;
   padding: 10px 20px;
   letter-spacing: 0.8px;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   border-radius: 50px;
   background-color: yellow;
 }
-.cards .card article .desc {
+
+.part2 .cards .card article .desc {
   padding: 10px 30px;
   font-size: 14px;
   text-align: center;
   line-height: 24px;
   color: #666;
   height: 90px;
+  -webkit-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
 }
-.cards .card article .pic {
+
+.part2 .cards .card article .pic {
   width: 120px;
   height: 120px;
   overflow: hidden;
   border-radius: 100%;
   margin: 20px 0;
-  box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.3);
+          box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.3);
+  -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
 }
-.cards .card article .pic img {
-  width: 100%;  
+
+.part2 .cards .card article .pic img {
+  width: 100%;
 }
- 
-.cards .card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.3);
+
+.part2 .cards .card:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.3);
 }
-.cards .card:hover:before {
+
+.part2 .cards .card:hover:before {
   height: 100%;
   border-radius: 4px;
 }
-.cards .card:hover .desc {
+
+.part2 .cards .card:hover .desc {
   color: white;
 }
-.cards .card:hover .pic {
-  box-shadow: 0px 0px 0px 8px rgba(255, 255, 255, 0.3);
+
+.part2 .cards .card:hover .pic {
+  -webkit-box-shadow: 0px 0px 0px 8px rgba(255, 255, 255, 0.3);
+          box-shadow: 0px 0px 0px 8px rgba(255, 255, 255, 0.3);
 }
-.cards .card:hover .pic img {
+
+.part2 .cards .card:hover .pic img {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
 }
-.cards .card.closed {
+
+.part2 .cards .card.closed {
   min-width: 90px;
   max-width: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
   cursor: pointer;
 }
-.cards .card.closed .title, .cards .card.closed .desc, .cards .card.closed .actions, .cards .card.closed .close {
+
+.part2 .cards .card.closed .title,
+.part2 .cards .card.closed .desc,
+.part2 .cards .card.closed .actions,
+.part2 .cards .card.closed .close {
   display: none;
 }
-.cards .card.closed h2 {
+
+.part2 .cards .card.closed h2 {
   padding: 0;
   height: 100%;
-  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
   width: 440px;
   z-index: 2;
+  -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
+  font-size: 2.6vh;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 5.9vh;
 }
-.cards .card.closed .pic {
+
+.part2 .cards .card.closed .pic {
   border-radius: 100%;
   height: 400px;
   width: 400px;
   position: absolute;
   top: -20px;
   margin: 0;
-  box-shadow: 0;
+  -webkit-box-shadow: 0;
+          box-shadow: 0;
+  -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
 }
-.cards .card.closed .pic img {
-  object-fit: cover;
+
+.part2 .cards .card.closed .pic img {
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100%;
-  transform: translateY(20px);
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
 }
-.cards .card.closed .pic:before {
+
+.part2 .cards .card.closed .pic:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -278,31 +367,45 @@ span.close{
   background-color: black;
   opacity: 0.5;
   z-index: 1;
+  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  transform: translateY(20px);
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
 }
-.cards .card.closed:before {
+
+.part2 .cards .card.closed:before {
   height: 100%;
   border-radius: 4px;
 }
-.cards .card.closed .arrow {
+
+.part2 .cards .card.closed .arrow {
+  /* width: 18px;
+    height: 18px;*/
   position: absolute;
   z-index: 2;
   cursor: pointer;
   bottom: 15px;
+  /*padding: 5px;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /*background-image: url(..//Desktop/expand.svg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.2s ease; 
+    color: #000000;*/
   background-color: transparent !important;
   text-align: center;
   font-size: 2vh;
-  
-}
-.cards .card.closed:hover .arrow {
-  background-size: 100%;
-  opacity: 0.6;
 }
 
-/*fin de la partie top 10*/
+.part2 .cards .card.closed:hover .arrow {
+  background-size: 100%;
+  opacity: 0.6;
 }
 
 .part3 {
@@ -707,6 +810,7 @@ span.close{
   border-radius: 10px;
   margin: 0 60px 0 100px;
 }
+
 @media (max-width: 1000px) {
   #fp-nav {
     display: none;
