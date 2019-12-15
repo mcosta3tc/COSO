@@ -223,7 +223,7 @@ span {
 .part2 .cards .card article h2 {
   color: colors(two);
   margin: 0;
-  font-size: 4.2vh;
+  font-size: 30px;
   line-height: 5.9vh;
   margin-bottom: 20px;
 }
@@ -332,7 +332,7 @@ span {
   z-index: 2;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
-  font-size: 2.6vh;
+  font-size: 30px;
   color: #FFFFFF;
   font-weight: bold;
   text-transform: uppercase;
@@ -390,11 +390,13 @@ span {
 }
 
 .part2 .cards .card.closed .arrow p {
-  font-size: 3vh;
+  font-size: 21px;
   color: #FFFFFF;
-  line-height: 7.9vh;
+  line-height: 45px;
   font-weight: bold;
   text-transform: uppercase;
+  position: relative;
+  top: -5px;
 }
 
 .part2 .cards .card.closed:hover .arrow {

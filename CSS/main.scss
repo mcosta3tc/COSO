@@ -204,7 +204,7 @@ span {
                 h2 {
                     color: colors(two);
                     margin: 0;
-                    font-size: 4.2vh;
+                    font-size: 30px;
                     line-height: 5.9vh;
                     margin-bottom: 20px;
                 }
@@ -297,7 +297,7 @@ span {
                 width: 440px;
                 z-index: 2;
                 transition: all 0.6s ease;
-                font-size: 2.6vh;
+                font-size: 30px;
                 color: color(two);
                 font-weight: bold;
                 text-transform: uppercase;
@@ -344,11 +344,13 @@ span {
                 text-align: center;
 
                 p {
-                    font-size: 3vh;
+                    font-size: 21px;
                     color: color(two);
-                    line-height: 7.9vh;
+                    line-height: 45px;
                     font-weight: bold;
                     text-transform: uppercase;
+                    position: relative;
+                    top: -5px;
                 }
             }
         }
