@@ -473,11 +473,8 @@
                 shuffle: false,
                 smartBackspace: true,
                 loop: true
-            });
-        </script>
+            }); 
 
-        <!--debut script concernant la partie top 10-->
-        <script>
             var closeBtn = document.querySelectorAll(".close"),
                 card = document.querySelectorAll(".card"),
                 btnActions = document.querySelectorAll(".btn");
@@ -504,6 +501,17 @@
                     event.currentTarget.classList.remove("closed");
                 }
             }
+
+            function toggle() {
+                for (var i = 0; i < document.querySelectorAll(".card"); i++) {
+                    document.querySelectorAll(".card")[i].className = "";
+                }
+                this.className = "ouverte";
+            }
+
+            for (var i = 0; i < document.querySelectorAll("ouverte"); i++) {
+                    document.querySelectorAll("closed")[i].addEventListener("click", toggle);
+                }
         </script>
         <!--fin script concernant la partie top 10-->
 
