@@ -473,7 +473,7 @@
                 shuffle: false,
                 smartBackspace: true,
                 loop: true
-            }); 
+            });
 
             var closeBtn = document.querySelectorAll(".close"),
                 card = document.querySelectorAll(".card"),
@@ -494,24 +494,26 @@
             function closeCard(event) {
                 event.stopPropagation();
                 event.target.closest(".card").classList.add("closed");
+                var cards = document.querySelectorAll(".card");
+                for (var i = 0; i < cards.length; i++) {
+                    if (!cards[i].classList.contains("closed")) {
+                        cards[i].classList.add("closed");
+                    }
+                }
             }
 
             function openCard(event) {
+                var cards = document.querySelectorAll(".card");
+                for (var i = 0; i < cards.length; i++) {
+                    if (!cards[i].classList.contains("closed")) {
+                        cards[i].classList.add("closed");
+                    }
+                }
+                
                 if (event.currentTarget.classList.contains("closed")) {
                     event.currentTarget.classList.remove("closed");
                 }
             }
-
-            function toggle() {
-                for (var i = 0; i < document.querySelectorAll(".card"); i++) {
-                    document.querySelectorAll(".card")[i].className = "";
-                }
-                this.className = "ouverte";
-            }
-
-            for (var i = 0; i < document.querySelectorAll("ouverte"); i++) {
-                    document.querySelectorAll("closed")[i].addEventListener("click", toggle);
-                }
         </script>
         <!--fin script concernant la partie top 10-->
 
