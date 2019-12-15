@@ -378,7 +378,7 @@ span {
   position: absolute;
   z-index: 2;
   cursor: pointer;
-  bottom: 4%;
+  bottom: 6px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -392,7 +392,7 @@ span {
 .part2 .cards .card.closed .arrow p {
   font-size: 3vh;
   color: #FFFFFF;
-  line-height: 5.9vh;
+  line-height: 7.9vh;
   font-weight: bold;
   text-transform: uppercase;
 }

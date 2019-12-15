@@ -337,7 +337,7 @@ span {
                 position: absolute;
                 z-index: 2;
                 cursor: pointer;
-                bottom: 4%;
+                bottom: 6px;
                 display: flex;
                 justify-content: center;
                 background-color: transparent !important;
@@ -346,7 +346,7 @@ span {
                 p {
                     font-size: 3vh;
                     color: color(two);
-                    line-height: 5.9vh;
+                    line-height: 7.9vh;
                     font-weight: bold;
                     text-transform: uppercase;
                 }
