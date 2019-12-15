@@ -6,4 +6,4 @@ COSO (la communaute du code source ouvert) est un site web de ressource open sou
 
 + Des sites web de cours gratuits pour les débutants souhaitant apprendre le code. Pour par la suite intégrer la grande famille de l'Open Source
 
-Nous vous invitons à vous rendre à cette [adresse](https://mcosta3tc.github.io/COSO/) 👀 pour plus d'information.
+Nous vous invitons à vous rendre à cette [adresse](https://mcosta3tc.github.io/COSO/) pour plus d'information. 👀 
