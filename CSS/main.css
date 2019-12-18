@@ -229,12 +229,13 @@ span {
 }
 
 .part2 .cards .card article .buttonTop {
-  color: #00FFFF;
+  color: #FFFFFF;
   padding: 10px 20px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   border-radius: 5px;
-  background-color: #000000;
+  border: 2px solid #FFFFFF;
+  background-color: #00458B;
   text-decoration: none;
   outline: none;
   font-family: "Zilla Slab", serif;
@@ -273,7 +274,7 @@ span {
   width: calc(100% + 100px);
   content: "";
   position: absolute;
-  background-color: #00FFFF;
+  background-color: #00458B;
   border-radius: 4px 4px 100% 100%;
   -webkit-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
